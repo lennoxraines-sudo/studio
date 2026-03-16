@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": "retro-racer",
+    "title": "Retro Racer",
+    "description": "Speed through neon-lit streets in this high-octane 8-bit racing simulator. Avoid obstacles and reach the finish line.",
+    "category": "Racing",
+    "iframeUrl": "https://www.crazygames.com/embed/motox3m",
+    "thumbnail": "https://picsum.photos/seed/race/600/400"
+  },
+  {
+    "id": "neon-jump",
+    "title": "Neon Jump",
+    "description": "A gravity-defying platformer where you must jump between floating neon platforms without falling into the void.",
+    "category": "Action",
+    "iframeUrl": "https://www.crazygames.com/embed/slope",
+    "thumbnail": "https://picsum.photos/seed/arcade1/600/400"
+  },
+  {
+    "id": "block-breaker",
+    "title": "Block Breaker",
+    "description": "Classic arcade action! Use your paddle to bounce the ball and destroy all the colored blocks on the screen.",
+    "category": "Arcade",
+    "iframeUrl": "https://www.crazygames.com/embed/tunnel-rush",
+    "thumbnail": "https://picsum.photos/seed/blocks/600/400"
+  },
+  {
+    "id": "cosmic-cube",
+    "title": "Cosmic Cube",
+    "description": "Navigate a glowing cube through a series of increasingly difficult geometric mazes in deep space.",
+    "category": "Puzzle",
+    "iframeUrl": "https://www.crazygames.com/embed/cubes-2048-io",
+    "thumbnail": "https://picsum.photos/seed/space/600/400"
+  },
+  {
+    "id": "pixel-paladin",
+    "title": "Pixel Paladin",
+    "description": "Protect the kingdom from waves of pixelated enemies using your trusty sword and magical abilities.",
+    "category": "Adventure",
+    "iframeUrl": "https://www.crazygames.com/embed/shell-shockers",
+    "thumbnail": "https://picsum.photos/seed/pixel/600/400"
+  },
+  {
+    "id": "gravity-glide",
+    "title": "Gravity Glide",
+    "description": "A relaxing yet challenging experience where you control a paper plane gliding through beautiful landscapes.",
+    "category": "Relaxing",
+    "iframeUrl": "https://www.crazygames.com/embed/paper-io-2",
+    "thumbnail": "https://picsum.photos/seed/cyber/600/400"
+  }
+]

@@ -1,0 +1,60 @@
+
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { Play } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
+
+export interface Game {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  iframeUrl: string;
+  thumbnail: string;
+}
+
+interface GameCardProps {
+  game: Game;
+}
+
+export function GameCard({ game }: GameCardProps) {
+  return (
+    <Link href={`/game/${game.id}`} className="group">
+      <div className="game-card-hover bg-white rounded-3xl overflow-hidden border border-border h-full flex flex-col">
+        <div className="relative aspect-video overflow-hidden">
+          <Image
+            src={game.thumbnail}
+            alt={game.title}
+            width={600}
+            height={400}
+            className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
+            data-ai-hint="game thumbnail"
+          />
+          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            <div className="bg-white/20 backdrop-blur-sm p-4 rounded-full">
+              <Play className="w-8 h-8 text-white fill-white" />
+            </div>
+          </div>
+          <div className="absolute top-3 left-3">
+            <Badge className="bg-primary hover:bg-primary font-medium px-3 py-1 rounded-full text-xs uppercase tracking-wider">
+              {game.category}
+            </Badge>
+          </div>
+        </div>
+        <div className="p-5 flex flex-col flex-1">
+          <h3 className="font-headline font-bold text-xl mb-2 text-foreground group-hover:text-primary transition-colors">
+            {game.title}
+          </h3>
+          <p className="text-muted-foreground text-sm line-clamp-2 mb-4">
+            {game.description}
+          </p>
+          <div className="mt-auto flex items-center text-primary font-bold text-sm">
+            PLAY NOW <Play className="w-3 h-3 ml-1 fill-current" />
+          </div>
+        </div>
+      </div>
+    </Link>
+  );
+}
