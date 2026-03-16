@@ -42,12 +42,6 @@
       "description": "Thumbnail for Drive Mad game showing a monster truck on a track",
       "imageUrl": "https://picsum.photos/seed/drivemad/600/400",
       "imageHint": "monster truck"
-    },
-    {
-      "id": "tiny-fishing-thumb",
-      "description": "Thumbnail for Tiny Fishing game showing a fishing rod and fish",
-      "imageUrl": "https://picsum.photos/seed/tinyfishing/600/400",
-      "imageHint": "fishing lake"
     }
   ]
 }
