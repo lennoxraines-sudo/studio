@@ -36,6 +36,12 @@
       "description": "Thumbnail for Flappy Bird game showing a small bird and green pipes",
       "imageUrl": "https://picsum.photos/seed/flappy/600/400",
       "imageHint": "flappy bird"
+    },
+    {
+      "id": "drive-mad-thumb",
+      "description": "Thumbnail for Drive Mad game showing a monster truck on a track",
+      "imageUrl": "https://picsum.photos/seed/drivemad/600/400",
+      "imageHint": "monster truck"
     }
   ]
 }
