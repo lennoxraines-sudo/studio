@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useRef, useEffect, use } from "react";
@@ -66,9 +65,12 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
           <span>BACK TO NETWORK</span>
         </Link>
-        <div className="hidden md:block">
+        <div className="hidden md:flex flex-col items-center">
           <span className="font-headline font-bold text-xl tracking-tight text-primary">
             YOYO&apos;S<span className="text-accent">NETWORK</span>
+          </span>
+          <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest leading-none">
+            by Lennox
           </span>
         </div>
         <div className="flex gap-2">
@@ -186,6 +188,27 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
           </aside>
         </div>
       </main>
+
+      <footer className="bg-card/50 border-t border-border py-10 px-8 mt-auto">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col items-center md:items-start gap-1">
+            <span className="font-headline font-bold text-xl tracking-tight text-primary">
+              YOYO&apos;S<span className="text-accent">NETWORK</span>
+            </span>
+            <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest">
+              by Lennox
+            </span>
+          </div>
+          <p className="text-muted-foreground text-sm">
+            © {new Date().getFullYear()} Yoyo&apos;s Network. Play and watch anytime, anywhere.
+          </p>
+          <div className="flex gap-6 text-sm font-medium text-primary">
+            <a href="#" className="hover:text-accent transition-colors">About</a>
+            <a href="#" className="hover:text-accent transition-colors">Privacy</a>
+            <a href="#" className="hover:text-accent transition-colors">Terms</a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

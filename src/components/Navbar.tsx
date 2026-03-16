@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -17,9 +16,14 @@ export function Navbar({ searchQuery, setSearchQuery }: NavbarProps) {
         <div className="bg-primary p-2 rounded-2xl text-primary-foreground group-hover:rotate-12 transition-transform shadow-lg shadow-primary/20">
           <Zap className="w-6 h-6 fill-current" />
         </div>
-        <span className="font-headline font-bold text-xl md:text-2xl tracking-tight text-primary">
-          YOYO&apos;S<span className="text-accent">NETWORK</span>
-        </span>
+        <div className="flex flex-col md:flex-row md:items-baseline md:gap-2">
+          <span className="font-headline font-bold text-xl md:text-2xl tracking-tight text-primary">
+            YOYO&apos;S<span className="text-accent">NETWORK</span>
+          </span>
+          <span className="text-[10px] md:text-xs text-muted-foreground font-medium uppercase tracking-widest">
+            by Lennox
+          </span>
+        </div>
       </Link>
 
       <div className="relative w-full max-w-xs md:max-w-md ml-4">

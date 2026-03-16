@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useMemo } from "react";
@@ -72,9 +71,12 @@ export default function Home() {
 
       <footer className="bg-card/50 border-t border-border py-10 px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-col items-center md:items-start gap-1">
             <span className="font-headline font-bold text-xl tracking-tight text-primary">
               YOYO&apos;S<span className="text-accent">NETWORK</span>
+            </span>
+            <span className="text-[10px] text-muted-foreground font-medium uppercase tracking-widest">
+              by Lennox
             </span>
           </div>
           <p className="text-muted-foreground text-sm">
