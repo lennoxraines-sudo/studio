@@ -1,3 +1,10 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "cookie-clicker-thumb",
+      "description": "Thumbnail for Cookie Clicker game showing a giant cookie and bakery assets",
+      "imageUrl": "https://picsum.photos/seed/cookie/600/400",
+      "imageHint": "cookie bakery"
+    }
+  ]
 }

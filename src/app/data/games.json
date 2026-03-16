@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "description": "The original idle game where you bake cookies to rule the universe. Click the big cookie, buy upgrades, and recruit grandmas to help you bake more cookies!",
+    "category": "Games",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/",
+    "thumbnail": "https://picsum.photos/seed/cookie/600/400"
+  }
+]
