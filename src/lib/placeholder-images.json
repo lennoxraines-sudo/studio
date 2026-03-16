@@ -23,6 +23,30 @@
       "description": "Thumbnail for 2048 game showing numbered tiles on a grid",
       "imageUrl": "https://picsum.photos/seed/2048/600/400",
       "imageHint": "2048 puzzle"
+    },
+    {
+      "id": "slope-thumb",
+      "description": "Thumbnail for Slope game showing a neon ball on a futuristic track",
+      "imageUrl": "https://picsum.photos/seed/slope/600/400",
+      "imageHint": "neon slope"
+    },
+    {
+      "id": "flappy-bird-thumb",
+      "description": "Thumbnail for Flappy Bird game showing a small bird and green pipes",
+      "imageUrl": "https://picsum.photos/seed/flappy/600/400",
+      "imageHint": "flappy bird"
+    },
+    {
+      "id": "drive-mad-thumb",
+      "description": "Thumbnail for Drive Mad game showing a monster truck on a track",
+      "imageUrl": "https://picsum.photos/seed/drivemad/600/400",
+      "imageHint": "monster truck"
+    },
+    {
+      "id": "tiny-fishing-thumb",
+      "description": "Thumbnail for Tiny Fishing game showing a fishing rod and fish",
+      "imageUrl": "https://picsum.photos/seed/tinyfishing/600/400",
+      "imageHint": "fishing lake"
     }
   ]
 }
