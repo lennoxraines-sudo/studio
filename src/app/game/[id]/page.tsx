@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useRef, useEffect, use } from "react";
@@ -84,10 +85,11 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
         <div ref={containerRef} className={`relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-black ${isFullscreen ? 'w-full h-full rounded-none' : 'border border-border/50'}`}>
           <div className="iframe-container">
             <iframe
+              id="sandboxFrame"
               src={game.iframeUrl}
               title={game.title}
-              allowFullScreen
-              sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation"
+              allow="accelerometer *; ambient-light-sensor *; autoplay *; camera *; clipboard-read *; clipboard-write *; encrypted-media *; fullscreen *; geolocation *; gyroscope *; local-network-access *; magnetometer *; microphone *; midi *; payment *; picture-in-picture *; screen-wake-lock *; speaker *; sync-xhr *; usb *; vibrate *; vr *; web-share *"
+              sandbox="allow-downloads allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-storage-access-by-user-activation"
               className="bg-black"
             />
           </div>
