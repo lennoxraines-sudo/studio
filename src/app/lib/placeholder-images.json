@@ -48,6 +48,12 @@
       "description": "Thumbnail for Slither game showing a colorful snake in a dark arena with glowing orbs",
       "imageUrl": "https://picsum.photos/seed/slither/600/400",
       "imageHint": "snake neon"
+    },
+    {
+      "id": "ultrakill-thumb",
+      "description": "Thumbnail for Ultrakill showing high-octane retro FPS action",
+      "imageUrl": "https://picsum.photos/seed/ultrakill/600/400",
+      "imageHint": "retro fps"
     }
   ]
 }
