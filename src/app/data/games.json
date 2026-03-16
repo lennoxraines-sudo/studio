@@ -15,5 +15,13 @@
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/run3/",
     "thumbnail": "https://picsum.photos/seed/run3/600/400"
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "description": "The perfect game for the armchair quarterback. Take control of your favorite football team and lead them to glory in this retro-styled sports sim.",
+    "category": "Games",
+    "iframeUrl": "https://incrediblewebsite.github.io/retrobowl/",
+    "thumbnail": "https://picsum.photos/seed/retrobowl/600/400"
   }
 ]
