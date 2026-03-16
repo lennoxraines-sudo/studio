@@ -1,67 +1,62 @@
 
-<!DOCTYPE html>
+<!-- Ultimate Game Stash file-->
+<!-- For the regularly updating doc go to https://docs.google.com/document/d/1_FmH3BlSBQI7FGgAQL59-ZPe8eCxs35wel6JUyVaG8Q/ -->
 <html>
 <head>
-<base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/cookieclicker/">
-<script>
-var VERSION=2.058; var BETA=0; var SAVESUFFIX=''; var App=0; var PRESETMODS=[]; var LOCAL=true;
-</script>
-<title>Cookie Clicker</title>
-<meta name="viewport" content="width=900, initial-scale=1">
-<link rel="shortcut icon" href="img/favicon.ico" />
-<script src="base64.js"></script>
-<link href="style.css?v=10c" rel="stylesheet" type="text/css">
-<script src="main2.js?v=13g"></script>
-<script src="showads.js"></script>
-<style>
-@font-face {font-family:Merriweather;font-style:normal;font-weight:900;src:url(/cf-fonts/s/merriweather/5.0.11/latin/900/normal.woff2);unicode-range:U+0000-00FF;font-display:swap;}
-</style>
+    <base href="https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/cookieclicker/">
+    <script>
+        var VERSION = 2.058;
+        var BETA = 0;
+        var SAVESUFFIX = '';
+        var App = typeof App === 'undefined' ? 0 : App;
+        var PRESETMODS = [];
+        var LOCAL = (App || !window.location.hostname || window.location.hostname !== 'localhost' || window.location.hostname !== '127.0.0.1');
+    </script>
+    <title>Cookie Clicker</title>
+    <meta name="viewport" content="width=900, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <script src="base64.js"></script>
+    <link href="style.css?v=10c" rel="stylesheet" type="text/css">
+    <script src="main2.js?v=13g"></script>
 </head>
 <body>
-<div id="wrapper">
-<div id="topBar">
-	<div><a href="">Cookie Clicker</a>&trade; &copy; Orteil, 2026</div>
-</div>
-<div id="game">
-	<div id="versionNumber" class="title"></div>
-	<script>document.getElementById('versionNumber').innerHTML='v. '+VERSION;</script>
-	<div id="offGameMessageWrap">
-		<div id="offGameMessage">
-			<div id="loader">
-				<div class="spinnyBig"></div>
-				<div class="spinnySmall"></div>
-				<div id="loading" class="title">Loading...</div>
-			</div>
-		</div>
-	</div>
-	<canvas id="backgroundCanvas"></canvas>
-	<div id="goldenCookie" class="goldenCookie"></div>
-	<div id="sectionLeft" class="inset">
-		<canvas id="backgroundLeftCanvas" style="z-index:5;"></canvas>
-		<div id="cookies" class="title"></div>
-		<div id="bakeryNameAnchor"><div id="bakeryName" class="title"></div></div>
-		<div id="cookieAnchor">
-			<button id="bigCookie"></button>
-		</div>
-	</div>
-	<div id="sectionMiddle" class="inset">
-		<div id="comments" class="inset title">
-			<div id="commentsText"><div id="commentsText1" class="commentsText"></div></div>
-		</div>
-		<div id="centerArea">
-			<div id=" buildingsMaster"></div>
-			<div id="rows"></div>
-			<div id="menu"></div>
-		</div>
-	</div>
-	<div id="sectionRight" class="inset">
-		<div id="store">
-			<div id="storeTitle" class="inset title zoneTitle">Store</div>
-			<div id="products"></div>
-		</div>
-	</div>
-	<div id="tooltipAnchor"><div id="tooltip" class="framed"></div></div>
-</div>
-</div>
+    <div id="wrapper">
+        <div id="game">
+            <div id="versionNumber" class="title"></div>
+            <script>document.getElementById('versionNumber').innerHTML = 'v. ' + VERSION;</script>
+            <div id="sectionLeft" class="inset">
+                <canvas id="backgroundLeftCanvas" style="z-index:5;"></canvas>
+                <div id="cookies" class="title"></div>
+                <div id="cookieAnchor">
+                    <button id="bigCookie"></button>
+                    <div id="cookieNumbers"></div>
+                </div>
+            </div>
+            <div id="sectionMiddle" class="inset">
+                <div id="comments" class="inset title">
+                    <div id="prefsButton" class="panelButton">
+                        <div class="subButton">Options</div>
+                    </div>
+                    <div id="statsButton" class="panelButton">
+                        <div>Stats</div>
+                    </div>
+                    <div id="commentsText">
+                        <div id="commentsText1" class="commentsText"></div>
+                    </div>
+                </div>
+                <div id="centerArea">
+                    <div id="rows"></div>
+                    <div id="menu"></div>
+                </div>
+            </div>
+            <div id="sectionRight" class="inset">
+                <div id="store">
+                    <div id="storeTitle" class="inset title zoneTitle">Store</div>
+                    <div id="upgrades" class="storeSection upgradeBox"></div>
+                    <div id="products" class="storeSection"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
