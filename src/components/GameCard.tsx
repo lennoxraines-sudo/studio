@@ -1,8 +1,9 @@
+
 "use client";
 
 import Image from "next/image";
 import Link from "next/link";
-import { Play } from "lucide-react";
+import { Play, Film, Tv, Gamepad2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export interface Game {
@@ -19,6 +20,27 @@ interface GameCardProps {
 }
 
 export function GameCard({ game }: GameCardProps) {
+  const getIcon = () => {
+    switch (game.category) {
+      case "Movies":
+        return <Film className="w-3 h-3 ml-2" />;
+      case "TV Shows":
+        return <Tv className="w-3 h-3 ml-2" />;
+      default:
+        return <Play className="w-3 h-3 ml-2 fill-current" />;
+    }
+  };
+
+  const getActionText = () => {
+    switch (game.category) {
+      case "Movies":
+      case "TV Shows":
+        return "WATCH NOW";
+      default:
+        return "PLAY NOW";
+    }
+  };
+
   return (
     <Link href={`/game/${game.id}`} className="group">
       <div className="game-card-hover bg-card rounded-[2rem] overflow-hidden border border-border/50 h-full flex flex-col">
@@ -29,11 +51,15 @@ export function GameCard({ game }: GameCardProps) {
             width={600}
             height={400}
             className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
-            data-ai-hint="game thumbnail"
+            data-ai-hint="media thumbnail"
           />
           <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
             <div className="bg-white/20 backdrop-blur-sm p-4 rounded-full">
-              <Play className="w-8 h-8 text-white fill-white" />
+              {game.category === "Movies" || game.category === "TV Shows" ? (
+                <Film className="w-8 h-8 text-white" />
+              ) : (
+                <Play className="w-8 h-8 text-white fill-white" />
+              )}
             </div>
           </div>
           <div className="absolute top-3 left-3">
@@ -50,7 +76,7 @@ export function GameCard({ game }: GameCardProps) {
             {game.description}
           </p>
           <div className="mt-auto flex items-center text-primary font-bold text-sm tracking-widest">
-            PLAY NOW <Play className="w-3 h-3 ml-2 fill-current" />
+            {getActionText()} {getIcon()}
           </div>
         </div>
       </div>

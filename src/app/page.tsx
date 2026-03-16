@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useMemo } from "react";
@@ -28,7 +29,7 @@ export default function Home() {
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 md:px-8 py-8 md:py-12">
         <header className="mb-12">
           <div className="inline-block px-4 py-1.5 rounded-full bg-accent/10 text-accent font-bold text-sm mb-4 uppercase tracking-widest">
-            Unblocked & Fun
+            Unblocked Entertainment
           </div>
           <h1 className="text-4xl md:text-6xl font-headline font-bold mb-6 text-primary leading-tight">
             Escape the ordinary.<br />
@@ -61,9 +62,9 @@ export default function Home() {
         ) : (
           <div className="py-20 text-center">
             <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-secondary mb-6">
-              <span className="text-4xl">🕹️</span>
+              <span className="text-4xl">🎬</span>
             </div>
-            <h2 className="text-2xl font-headline font-bold mb-2">No games found</h2>
+            <h2 className="text-2xl font-headline font-bold mb-2">Nothing found</h2>
             <p className="text-muted-foreground">Try adjusting your search or category filters.</p>
           </div>
         )}
@@ -77,7 +78,7 @@ export default function Home() {
             </span>
           </div>
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Yoyo&apos;s Network. Play anytime, anywhere.
+            © {new Date().getFullYear()} Yoyo&apos;s Network. Play and watch anytime, anywhere.
           </p>
           <div className="flex gap-6 text-sm font-medium text-primary">
             <a href="#" className="hover:text-accent transition-colors">About</a>
