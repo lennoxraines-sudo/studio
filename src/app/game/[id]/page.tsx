@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useRef, useEffect, use } from "react";
@@ -57,8 +56,8 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
   }
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
-      <nav className="p-4 md:p-6 border-b bg-white flex items-center justify-between">
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
+      <nav className="p-4 md:p-6 border-b bg-card/50 flex items-center justify-between backdrop-blur-md sticky top-0 z-50">
         <Link 
           href="/" 
           className="flex items-center gap-2 text-primary hover:text-accent transition-colors font-bold group"
@@ -72,14 +71,14 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
           </span>
         </div>
         <div className="flex gap-2">
-           <Button variant="outline" size="icon" className="rounded-full">
+           <Button variant="outline" size="icon" className="rounded-full border-border/50">
             <Share2 className="w-4 h-4" />
           </Button>
         </div>
       </nav>
 
       <main className="flex-1 flex flex-col p-4 md:p-8 max-w-6xl mx-auto w-full">
-        <div ref={containerRef} className={`relative rounded-3xl overflow-hidden shadow-2xl bg-black ${isFullscreen ? 'w-full h-full rounded-none' : ''}`}>
+        <div ref={containerRef} className={`relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-black ${isFullscreen ? 'w-full h-full rounded-none' : ''}`}>
           <div className="iframe-container">
             <iframe
               src={game.iframeUrl}
@@ -92,7 +91,7 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
           <div className={`absolute bottom-6 right-6 flex gap-2 transition-opacity ${isFullscreen ? 'opacity-100' : 'opacity-0 hover:opacity-100'}`}>
             <Button 
               onClick={toggleFullscreen} 
-              className="bg-white/20 hover:bg-white/30 backdrop-blur-md border-none text-white rounded-xl h-12 px-6 shadow-lg"
+              className="bg-white/20 hover:bg-white/30 backdrop-blur-md border-none text-white rounded-2xl h-12 px-6 shadow-lg font-bold"
             >
               {isFullscreen ? (
                 <>
@@ -109,32 +108,32 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
 
         <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
           <div className="lg:col-span-2">
-            <div className="flex flex-wrap items-center gap-4 mb-4">
-              <h1 className="text-3xl md:text-4xl font-headline font-bold text-primary">
+            <div className="flex flex-wrap items-center gap-4 mb-6">
+              <h1 className="text-3xl md:text-5xl font-headline font-bold text-foreground">
                 {game.title}
               </h1>
-              <Badge className="bg-accent hover:bg-accent px-4 py-1.5 rounded-full uppercase tracking-wider font-bold">
+              <Badge className="bg-accent hover:bg-accent text-accent-foreground px-4 py-1.5 rounded-full uppercase tracking-wider font-bold">
                 {game.category}
               </Badge>
             </div>
-            <Card className="p-6 md:p-8 rounded-3xl border-none shadow-sm bg-white">
+            <Card className="p-6 md:p-8 rounded-[2.5rem] border-border/50 shadow-sm bg-card">
               <div className="flex items-start gap-4 mb-6">
-                <div className="bg-primary/10 p-3 rounded-2xl text-primary">
+                <div className="bg-primary/10 p-4 rounded-[1.5rem] text-primary">
                   <Info className="w-6 h-6" />
                 </div>
                 <div>
                   <h3 className="font-headline font-bold text-xl mb-2">How to Play</h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed text-lg">
                     {game.description}
                   </p>
                 </div>
               </div>
               
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-6 border-t">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-6 border-t border-border/30">
                 <div>
                   <p className="text-xs font-bold text-muted-foreground uppercase mb-1">Status</p>
-                  <p className="font-bold text-green-500 flex items-center gap-1">
-                    <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+                  <p className="font-bold text-green-400 flex items-center gap-1">
+                    <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
                     ONLINE
                   </p>
                 </div>
@@ -151,25 +150,25 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
           </div>
 
           <aside className="lg:col-span-1">
-             <Card className="p-6 rounded-3xl border-none shadow-sm bg-primary/5">
-                <h3 className="font-headline font-bold text-xl mb-4 text-primary">Controls</h3>
+             <Card className="p-8 rounded-[2.5rem] border-border/50 shadow-sm bg-secondary/20">
+                <h3 className="font-headline font-bold text-xl mb-6 text-primary">Controls</h3>
                 <ul className="space-y-4">
-                  <li className="flex justify-between items-center bg-white p-3 rounded-xl shadow-sm">
+                  <li className="flex justify-between items-center bg-card p-4 rounded-[1.25rem] border border-border/30 shadow-sm">
                     <span className="text-sm font-medium text-muted-foreground">Move</span>
-                    <span className="bg-secondary px-3 py-1 rounded-lg text-sm font-bold">Arrow Keys</span>
+                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Arrow Keys</span>
                   </li>
-                  <li className="flex justify-between items-center bg-white p-3 rounded-xl shadow-sm">
+                  <li className="flex justify-between items-center bg-card p-4 rounded-[1.25rem] border border-border/30 shadow-sm">
                     <span className="text-sm font-medium text-muted-foreground">Jump / Action</span>
-                    <span className="bg-secondary px-3 py-1 rounded-lg text-sm font-bold">Space</span>
+                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Space</span>
                   </li>
-                  <li className="flex justify-between items-center bg-white p-3 rounded-xl shadow-sm">
+                  <li className="flex justify-between items-center bg-card p-4 rounded-[1.25rem] border border-border/30 shadow-sm">
                     <span className="text-sm font-medium text-muted-foreground">Pause</span>
-                    <span className="bg-secondary px-3 py-1 rounded-lg text-sm font-bold">Esc / P</span>
+                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Esc / P</span>
                   </li>
                 </ul>
-                <div className="mt-8 p-4 bg-accent/10 rounded-2xl border border-accent/20">
-                  <p className="text-xs font-bold text-accent uppercase mb-2">Pro Tip</p>
-                  <p className="text-sm text-accent leading-snug">
+                <div className="mt-8 p-5 bg-accent/5 rounded-[1.5rem] border border-accent/20">
+                  <p className="text-xs font-bold text-accent uppercase mb-2 tracking-widest">Pro Tip</p>
+                  <p className="text-sm text-accent/80 leading-snug">
                     Use Fullscreen mode for the most immersive arcade experience and better performance!
                   </p>
                 </div>

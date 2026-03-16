@@ -1,4 +1,3 @@
-
 "use client";
 
 import Image from "next/image";
@@ -22,7 +21,7 @@ interface GameCardProps {
 export function GameCard({ game }: GameCardProps) {
   return (
     <Link href={`/game/${game.id}`} className="group">
-      <div className="game-card-hover bg-white rounded-3xl overflow-hidden border border-border h-full flex flex-col">
+      <div className="game-card-hover bg-card rounded-[2rem] overflow-hidden border border-border/50 h-full flex flex-col">
         <div className="relative aspect-video overflow-hidden">
           <Image
             src={game.thumbnail}
@@ -38,20 +37,20 @@ export function GameCard({ game }: GameCardProps) {
             </div>
           </div>
           <div className="absolute top-3 left-3">
-            <Badge className="bg-primary hover:bg-primary font-medium px-3 py-1 rounded-full text-xs uppercase tracking-wider">
+            <Badge className="bg-primary hover:bg-primary text-primary-foreground font-medium px-3 py-1 rounded-full text-xs uppercase tracking-wider">
               {game.category}
             </Badge>
           </div>
         </div>
-        <div className="p-5 flex flex-col flex-1">
+        <div className="p-6 flex flex-col flex-1">
           <h3 className="font-headline font-bold text-xl mb-2 text-foreground group-hover:text-primary transition-colors">
             {game.title}
           </h3>
           <p className="text-muted-foreground text-sm line-clamp-2 mb-4">
             {game.description}
           </p>
-          <div className="mt-auto flex items-center text-primary font-bold text-sm">
-            PLAY NOW <Play className="w-3 h-3 ml-1 fill-current" />
+          <div className="mt-auto flex items-center text-primary font-bold text-sm tracking-widest">
+            PLAY NOW <Play className="w-3 h-3 ml-2 fill-current" />
           </div>
         </div>
       </div>

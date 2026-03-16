@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useMemo } from "react";
@@ -23,7 +22,7 @@ export default function Home() {
   }, [searchQuery, activeTab]);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
       <Navbar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       
       <main className="flex-1 max-w-7xl mx-auto w-full px-4 md:px-8 py-8 md:py-12">
@@ -38,12 +37,12 @@ export default function Home() {
           
           <div className="mt-8">
             <Tabs defaultValue="All" value={activeTab} onValueChange={setActiveTab}>
-              <TabsList className="bg-secondary/40 p-1.5 h-auto rounded-2xl flex-wrap justify-start">
+              <TabsList className="bg-secondary/40 p-1.5 h-auto rounded-3xl flex-wrap justify-start border border-border/50">
                 {categories.map((cat) => (
                   <TabsTrigger 
                     key={cat} 
                     value={cat}
-                    className="rounded-xl px-6 py-2.5 data-[state=active]:bg-primary data-[state=active]:text-white font-bold transition-all"
+                    className="rounded-2xl px-6 py-2.5 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground font-bold transition-all"
                   >
                     {cat}
                   </TabsTrigger>
@@ -70,7 +69,7 @@ export default function Home() {
         )}
       </main>
 
-      <footer className="bg-white border-t border-border py-10 px-8">
+      <footer className="bg-card/50 border-t border-border py-10 px-8">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <span className="font-headline font-bold text-xl tracking-tight text-primary">
