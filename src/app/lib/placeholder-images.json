@@ -24,6 +24,12 @@
       "description": "Thumbnail for 2048 game showing numbered tiles on a grid",
       "imageUrl": "https://picsum.photos/seed/2048/600/400",
       "imageHint": "2048 puzzle"
+    },
+    {
+      "id": "slope-thumb",
+      "description": "Thumbnail for Slope game showing a neon ball on a futuristic track",
+      "imageUrl": "https://picsum.photos/seed/slope/600/400",
+      "imageHint": "neon slope"
     }
   ]
 }

@@ -31,5 +31,13 @@
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/2048/",
     "thumbnail": "https://picsum.photos/seed/2048/600/400"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "description": "A fast-paced 3D runner game where you control a ball rolling down a steep slope. Avoid obstacles and stay on the track as you accelerate to breakneck speeds.",
+    "category": "Games",
+    "iframeUrl": "https://incrediblewebsite.github.io/slope/",
+    "thumbnail": "https://picsum.photos/seed/slope/600/400"
   }
 ]
