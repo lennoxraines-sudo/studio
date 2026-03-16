@@ -1,84 +1,27 @@
 
-<!DOCTYPE html>
-<html>
+<!-- Ultimate Game Stash file--> 
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <title>Slither - Yoyo's Network</title>
-    <meta content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no" name="viewport">
-    <meta content="true" name="HandheldFriendly">
-    <meta content="yes" name="mobile-web-app-capable">
+    <title>Snake</title>
     <style type="text/css">
         * { padding: 0; margin: 0; }
-        html, body {
-            background: #000;
-            color: #fff;
-            overflow: hidden;
-            touch-action: none;
-            -ms-touch-action: none;
-            width: 100%;
-            height: 100%;
-        }
-        canvas {
-            touch-action-delay: none;
-            touch-action: none;
-            -ms-touch-action: none;
-        }
-        @font-face {
-            font-family: Oswald Regular;
-            src: url(https://26515722-282596139816136697.preview.editmysite.com/uploads/b/7547235-562404422326578714/files/oswald_regular.ttf);
-        }
-        #button { display:none; }
-        .imgb_vis { animation: imgb-animation 7s linear; }
-        @keyframes imgb-animation {
-            10% { transform: translateX(0); }
-            20% { transform: translateX(100px); }
-            90% { transform: translateX(100px); }
-            100% { transform: translateX(0); }
-        }
-        #c2canvasdiv {
-            width: 100% !important;
-            height: 100% !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+        html, body { background: #000; color: #fff; overflow: hidden; touch-action: none; }
+        canvas { touch-action: none; width: 100%; height: 100%; }
+        #c2canvasdiv { width: 100%; height: 100%; }
     </style>
-    <script src="https://26515722-282596139816136697.preview.editmysite.com/uploads/b/7547235-562404422326578714/files/offlineClient.js"></script>
 </head>
-<body dir="ltr"> 
-    <div id="fb-root"></div>
-    <script>
-        function On_GameLoaded() { isGameLoaded = true; }
-        function Show_Ads() { if(typeof c2_callFunction === 'function') c2_callFunction("On_GameResumed"); }
-        (function(){
-            if (window.location.protocol.substr(0, 4) ==="file") {
-                alert("Exported games won't work until you upload them.");
-            }
-        })();
-    </script>
+<body> 
     <div id="c2canvasdiv">
-        <canvas id="c2canvas" width="1262" height="928">
+        <canvas id="c2canvas">
             <h1>Your browser does not appear to support HTML5.</h1>
         </canvas>
-        <input type="text" id="nameInput" autocomplete="off" placeholder="Your Name Here" spellcheck="false" style="position: absolute; top: 432px; left: 50%; transform: translateX(-50%); width: 373px; height: 35px; border: none; background-color: rgba(0, 0, 0, 0.4); color: rgb(255, 255, 255); font-size: 20px; font-family: 'Oswald', sans-serif; padding: 10px; border-radius: 100px; text-align: center;">
     </div>
     <script src="https://26515722-282596139816136697.preview.editmysite.com/uploads/b/7547235-562404422326578714/files/jquery-2.1.1.min.js"></script>
+    <script src="https://26515722-282596139816136697.preview.editmysite.com/uploads/b/7547235-562404422326578714/files/offlineClient.js"></script>
     <script src="https://26515722-282596139816136697.preview.editmysite.com/uploads/b/7547235-562404422326578714/files/c2runtime.js"></script>
     <script>
-        jQuery(document).ready(function () { 
-            if(typeof cr_createRuntime === 'function') cr_createRuntime("c2canvas"); 
-        });
-        function onVisibilityChanged() {
-            if (typeof cr_setSuspended === 'function') {
-                if (document.hidden || document.mozHidden || document.webkitHidden || document.msHidden) cr_setSuspended(true);
-                else cr_setSuspended(false);
-            }
-        };
-        document.addEventListener("visibilitychange", onVisibilityChanged, false);
-        document.addEventListener("mozvisibilitychange", onVisibilityChanged, false);
-        document.addEventListener("webkitvisibilitychange", onVisibilityChanged, false);
-        document.addEventListener("msvisibilitychange", onVisibilityChanged, false);
+        jQuery(document).ready(function () { cr_createRuntime("c2canvas"); });
     </script>
 </body>
 </html>
