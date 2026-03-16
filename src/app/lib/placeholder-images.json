@@ -18,6 +18,12 @@
       "description": "Thumbnail for Retro Bowl showing an American football field and pixel players",
       "imageUrl": "https://picsum.photos/seed/retrobowl/600/400",
       "imageHint": "american football"
+    },
+    {
+      "id": "2048-thumb",
+      "description": "Thumbnail for 2048 game showing numbered tiles on a grid",
+      "imageUrl": "https://picsum.photos/seed/2048/600/400",
+      "imageHint": "2048 puzzle"
     }
   ]
 }

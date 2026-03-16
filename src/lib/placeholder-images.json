@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "cookie-clicker-thumb",
+      "description": "Thumbnail for Cookie Clicker game showing a giant cookie and bakery assets",
+      "imageUrl": "https://picsum.photos/seed/cookie/600/400",
+      "imageHint": "cookie bakery"
+    },
+    {
+      "id": "run-3-thumb",
+      "description": "Thumbnail for Run 3 game showing a character running in a space tunnel",
+      "imageUrl": "https://picsum.photos/seed/run3/600/400",
+      "imageHint": "space runner"
+    },
+    {
+      "id": "retro-bowl-thumb",
+      "description": "Thumbnail for Retro Bowl showing an American football field and pixel players",
+      "imageUrl": "https://picsum.photos/seed/retrobowl/600/400",
+      "imageHint": "american football"
+    },
+    {
+      "id": "2048-thumb",
+      "description": "Thumbnail for 2048 game showing numbered tiles on a grid",
+      "imageUrl": "https://picsum.photos/seed/2048/600/400",
+      "imageHint": "2048 puzzle"
+    }
+  ]
 }

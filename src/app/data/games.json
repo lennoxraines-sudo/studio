@@ -23,5 +23,13 @@
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/retrobowl/",
     "thumbnail": "https://picsum.photos/seed/retrobowl/600/400"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers and get to the 2048 tile! A simple but addictive puzzle game where you slide tiles on a grid to combine them and reach the highest score.",
+    "category": "Games",
+    "iframeUrl": "https://incrediblewebsite.github.io/2048/",
+    "thumbnail": "https://picsum.photos/seed/2048/600/400"
   }
 ]
