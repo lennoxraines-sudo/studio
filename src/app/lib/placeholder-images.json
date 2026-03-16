@@ -1,35 +1,3 @@
-
 {
-  "placeholderImages": [
-    {
-      "id": "neon-runner-thumb",
-      "description": "Futuristic neon city game thumbnail",
-      "imageUrl": "https://picsum.photos/seed/neon/600/400",
-      "imageHint": "neon city"
-    },
-    {
-      "id": "cosmic-voyager-thumb",
-      "description": "Space galaxy movie thumbnail",
-      "imageUrl": "https://picsum.photos/seed/cosmic/600/400",
-      "imageHint": "galaxy space"
-    },
-    {
-      "id": "network-chronicles-thumb",
-      "description": "Digital network tv show thumbnail",
-      "imageUrl": "https://picsum.photos/seed/network/600/400",
-      "imageHint": "digital network"
-    },
-    {
-      "id": "pixel-pulse-thumb",
-      "description": "Retro game platformer thumbnail",
-      "imageUrl": "https://picsum.photos/seed/pixel/600/400",
-      "imageHint": "retro game"
-    },
-    {
-      "id": "glitch-thumb",
-      "description": "Abstract glitch art movie thumbnail",
-      "imageUrl": "https://picsum.photos/seed/glitch/600/400",
-      "imageHint": "abstract glitch"
-    }
-  ]
+  "placeholderImages": []
 }
