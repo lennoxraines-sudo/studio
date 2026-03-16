@@ -41,6 +41,12 @@
       "description": "Thumbnail for Drive Mad game showing a monster truck on a track",
       "imageUrl": "https://picsum.photos/seed/drivemad/600/400",
       "imageHint": "monster truck"
+    },
+    {
+      "id": "slither-thumb",
+      "description": "Thumbnail for Slither game showing a colorful snake in a dark arena with glowing orbs",
+      "imageUrl": "https://picsum.photos/seed/slither/600/400",
+      "imageHint": "snake neon"
     }
   ]
 }
