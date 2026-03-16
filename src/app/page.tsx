@@ -33,7 +33,7 @@ export default function Home() {
           </div>
           <h1 className="text-4xl md:text-6xl font-headline font-bold mb-6 text-primary leading-tight">
             Escape the ordinary.<br />
-            Enter the <span className="text-accent underline decoration-4 underline-offset-8">Arcade.</span>
+            Enter the <span className="text-accent underline decoration-4 underline-offset-8">Network.</span>
           </h1>
           
           <div className="mt-8">
@@ -74,11 +74,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
             <span className="font-headline font-bold text-xl tracking-tight text-primary">
-              ARCADE<span className="text-accent">ESCAPE</span>
+              YOYO&apos;S<span className="text-accent">NETWORK</span>
             </span>
           </div>
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Arcade Escape. Play anytime, anywhere.
+            © {new Date().getFullYear()} Yoyo&apos;s Network. Play anytime, anywhere.
           </p>
           <div className="flex gap-6 text-sm font-medium text-primary">
             <a href="#" className="hover:text-accent transition-colors">About</a>

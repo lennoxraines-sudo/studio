@@ -3,8 +3,8 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Arcade Escape | Unblocked Games',
-  description: 'Your ultimate destination for unblocked arcade games. Play Retro Racer, Neon Jump, and more!',
+  title: "Yoyo's Network | Unblocked Games",
+  description: "Your ultimate destination for unblocked games on Yoyo's Network. Play the best web games instantly!",
 };
 
 export default function RootLayout({

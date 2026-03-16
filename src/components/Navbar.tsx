@@ -18,7 +18,7 @@ export function Navbar({ searchQuery, setSearchQuery }: NavbarProps) {
           <Gamepad2 className="w-6 h-6" />
         </div>
         <span className="font-headline font-bold text-xl md:text-2xl tracking-tight text-primary">
-          ARCADE<span className="text-accent">ESCAPE</span>
+          YOYO&apos;S<span className="text-accent">NETWORK</span>
         </span>
       </Link>
 

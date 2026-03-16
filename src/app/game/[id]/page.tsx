@@ -64,11 +64,11 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
           className="flex items-center gap-2 text-primary hover:text-accent transition-colors font-bold group"
         >
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-          <span>BACK TO ARCADE</span>
+          <span>BACK TO NETWORK</span>
         </Link>
         <div className="hidden md:block">
           <span className="font-headline font-bold text-xl tracking-tight text-primary">
-            ARCADE<span className="text-accent">ESCAPE</span>
+            YOYO&apos;S<span className="text-accent">NETWORK</span>
           </span>
         </div>
         <div className="flex gap-2">
