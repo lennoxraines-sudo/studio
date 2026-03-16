@@ -1,8 +1,9 @@
+
 "use client";
 
 import { useState, useRef, useEffect, use } from "react";
 import Link from "next/link";
-import { ArrowLeft, Maximize, Minimize, Share2, Info, Gamepad2 } from "lucide-react";
+import { ArrowLeft, Maximize, Minimize, Share2, Info } from "lucide-react";
 import gamesData from "../../data/games.json";
 import { type Game } from "@/components/GameCard";
 import { Button } from "@/components/ui/button";
@@ -84,6 +85,7 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
               src={game.iframeUrl}
               title={game.title}
               allowFullScreen
+              sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-storage-access-by-user-activation"
               className="bg-black"
             />
           </div>
@@ -129,7 +131,9 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
             <Card className="p-6 md:p-8 rounded-[2.5rem] border-border/50 shadow-sm bg-card">
               <div className="flex items-start gap-4 mb-6">
                 <div className="bg-primary/10 p-4 rounded-[1.5rem] text-primary">
-                  <Info className="w-6 h-6" />
+                  <div className="w-6 h-6 flex items-center justify-center">
+                    <Info className="w-6 h-6" />
+                  </div>
                 </div>
                 <div>
                   <h3 className="font-headline font-bold text-xl mb-2">How to Play</h3>
@@ -165,11 +169,11 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
                 <ul className="space-y-4">
                   <li className="flex justify-between items-center bg-card p-4 rounded-[1.25rem] border border-border/30 shadow-sm">
                     <span className="text-sm font-medium text-muted-foreground">Action</span>
-                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Left Click</span>
+                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Space / Keys</span>
                   </li>
                   <li className="flex justify-between items-center bg-card p-4 rounded-[1.25rem] border border-border/30 shadow-sm">
-                    <span className="text-sm font-medium text-muted-foreground">Shortcuts</span>
-                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">C / G / S</span>
+                    <span className="text-sm font-medium text-muted-foreground">Interaction</span>
+                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Mouse</span>
                   </li>
                 </ul>
                 <div className="mt-8 p-5 bg-accent/5 rounded-[1.5rem] border border-accent/20">

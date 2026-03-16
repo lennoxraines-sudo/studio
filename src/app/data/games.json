@@ -7,5 +7,13 @@
     "category": "Games",
     "iframeUrl": "/games/cookie-clicker.html",
     "thumbnail": "https://picsum.photos/seed/cookie/600/400"
+  },
+  {
+    "id": "run-3",
+    "title": "Run 3",
+    "description": "Run, jump, and defy gravity in this classic space runner. Navigate through ever-changing tunnels and avoid falling into the void.",
+    "category": "Games",
+    "iframeUrl": "https://incrediblewebsite.github.io/run3/",
+    "thumbnail": "https://picsum.photos/seed/run3/600/400"
   }
 ]

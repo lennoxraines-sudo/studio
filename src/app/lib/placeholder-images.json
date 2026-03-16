@@ -1,3 +1,4 @@
+
 {
   "placeholderImages": [
     {
@@ -5,6 +6,12 @@
       "description": "Thumbnail for Cookie Clicker game showing a giant cookie and bakery assets",
       "imageUrl": "https://picsum.photos/seed/cookie/600/400",
       "imageHint": "cookie bakery"
+    },
+    {
+      "id": "run-3-thumb",
+      "description": "Thumbnail for Run 3 game showing a character running in a space tunnel",
+      "imageUrl": "https://picsum.photos/seed/run3/600/400",
+      "imageHint": "space runner"
     }
   ]
 }
