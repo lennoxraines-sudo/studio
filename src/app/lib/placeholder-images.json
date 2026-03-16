@@ -54,6 +54,12 @@
       "description": "Thumbnail for Ultrakill showing high-octane retro FPS action",
       "imageUrl": "https://picsum.photos/seed/ultrakill/600/400",
       "imageHint": "retro fps"
+    },
+    {
+      "id": "tiny-fishing-thumb",
+      "description": "Thumbnail for Tiny Fishing game showing a colorful pond and fishing gear",
+      "imageUrl": "https://picsum.photos/seed/fishing/600/400",
+      "imageHint": "fishing lake"
     }
   ]
 }
