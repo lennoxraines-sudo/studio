@@ -30,6 +30,12 @@
       "description": "Thumbnail for Slope game showing a neon ball on a futuristic track",
       "imageUrl": "https://picsum.photos/seed/slope/600/400",
       "imageHint": "neon slope"
+    },
+    {
+      "id": "flappy-bird-thumb",
+      "description": "Thumbnail for Flappy Bird game showing a small bird and green pipes",
+      "imageUrl": "https://picsum.photos/seed/flappy/600/400",
+      "imageHint": "flappy bird"
     }
   ]
 }

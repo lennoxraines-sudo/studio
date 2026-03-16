@@ -39,5 +39,13 @@
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/slope/",
     "thumbnail": "https://picsum.photos/seed/slope/600/400"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "description": "Tap to fly and dodge the green pipes in this classic, notoriously difficult arcade game. How far can you get?",
+    "category": "Games",
+    "iframeUrl": "https://incrediblewebsite.github.io/flappybird/",
+    "thumbnail": "https://picsum.photos/seed/flappy/600/400"
   }
 ]
