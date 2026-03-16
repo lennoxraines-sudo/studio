@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect, use } from "react";
 import Link from "next/link";
-import { ArrowLeft, Maximize, Minimize, Share2, Info } from "lucide-react";
+import { ArrowLeft, Maximize, Minimize, Share2, Info, Gamepad2 } from "lucide-react";
 import gamesData from "../../data/games.json";
 import { type Game } from "@/components/GameCard";
 import { Button } from "@/components/ui/button";
@@ -78,7 +78,7 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
       </nav>
 
       <main className="flex-1 flex flex-col p-4 md:p-8 max-w-6xl mx-auto w-full">
-        <div ref={containerRef} className={`relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-black ${isFullscreen ? 'w-full h-full rounded-none' : ''}`}>
+        <div ref={containerRef} className={`relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-black ${isFullscreen ? 'w-full h-full rounded-none' : 'border border-border/50'}`}>
           <div className="iframe-container">
             <iframe
               src={game.iframeUrl}
@@ -112,9 +112,19 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
               <h1 className="text-3xl md:text-5xl font-headline font-bold text-foreground">
                 {game.title}
               </h1>
-              <Badge className="bg-accent hover:bg-accent text-accent-foreground px-4 py-1.5 rounded-full uppercase tracking-wider font-bold">
-                {game.category}
-              </Badge>
+              <div className="flex gap-2">
+                <Badge className="bg-accent hover:bg-accent text-accent-foreground px-4 py-1.5 rounded-full uppercase tracking-wider font-bold">
+                  {game.category}
+                </Badge>
+                <Button 
+                  onClick={toggleFullscreen} 
+                  variant="secondary" 
+                  className="rounded-full h-8 px-4 font-bold text-xs uppercase tracking-wider"
+                >
+                  {isFullscreen ? <Minimize className="w-3 h-3 mr-2" /> : <Maximize className="w-3 h-3 mr-2" />}
+                  {isFullscreen ? "Exit Fullscreen" : "Fullscreen"}
+                </Button>
+              </div>
             </div>
             <Card className="p-6 md:p-8 rounded-[2.5rem] border-border/50 shadow-sm bg-card">
               <div className="flex items-start gap-4 mb-6">
@@ -154,16 +164,12 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
                 <h3 className="font-headline font-bold text-xl mb-6 text-primary">Controls</h3>
                 <ul className="space-y-4">
                   <li className="flex justify-between items-center bg-card p-4 rounded-[1.25rem] border border-border/30 shadow-sm">
-                    <span className="text-sm font-medium text-muted-foreground">Move</span>
-                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Arrow Keys</span>
+                    <span className="text-sm font-medium text-muted-foreground">Action</span>
+                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Left Click</span>
                   </li>
                   <li className="flex justify-between items-center bg-card p-4 rounded-[1.25rem] border border-border/30 shadow-sm">
-                    <span className="text-sm font-medium text-muted-foreground">Jump / Action</span>
-                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Space</span>
-                  </li>
-                  <li className="flex justify-between items-center bg-card p-4 rounded-[1.25rem] border border-border/30 shadow-sm">
-                    <span className="text-sm font-medium text-muted-foreground">Pause</span>
-                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">Esc / P</span>
+                    <span className="text-sm font-medium text-muted-foreground">Shortcuts</span>
+                    <span className="bg-secondary px-3 py-1 rounded-lg text-xs font-bold">C / G / S</span>
                   </li>
                 </ul>
                 <div className="mt-8 p-5 bg-accent/5 rounded-[1.5rem] border border-accent/20">
