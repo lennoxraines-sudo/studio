@@ -242,5 +242,14 @@
     "iframeUrl": "https://drive.google.com/file/d/12UeDOq7tCcbfvEo_EtzkL3Gxho45UOl4/preview",
     "thumbnail": "https://picsum.photos/seed/twisters/600/400",
     "imageHint": "tornado storm"
+  },
+  {
+    "id": "texas-chainsaw-massacre",
+    "title": "Texas Chainsaw Massacre",
+    "description": "After picking up a traumatized young hitchhiker, five friends find themselves stalked and hunted by a deformed chainsaw-wielding killer and his family of psychopathic killers.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1DX2PS1WKMKTBCcdwxzbjapo7He1OHTFb/preview",
+    "thumbnail": "https://picsum.photos/seed/chainsaw/600/400",
+    "imageHint": "chainsaw horror"
   }
 ]

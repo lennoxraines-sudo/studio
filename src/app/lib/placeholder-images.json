@@ -162,6 +162,12 @@
       "description": "Thumbnail for Twisters movie showing a tornado and storm chasers",
       "imageUrl": "https://picsum.photos/seed/twisters/600/400",
       "imageHint": "tornado storm"
+    },
+    {
+      "id": "texas-chainsaw-massacre-thumb",
+      "description": "Thumbnail for Texas Chainsaw Massacre showing a dark, gritty horror atmosphere",
+      "imageUrl": "https://picsum.photos/seed/chainsaw/600/400",
+      "imageHint": "chainsaw horror"
     }
   ]
 }
