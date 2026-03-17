@@ -224,5 +224,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1Ji_gULD2I1eReo2_mf9_0EMKYy0GwFHC/preview",
     "thumbnail": "https://picsum.photos/seed/gladiator2/600/400",
     "imageHint": "roman coliseum"
+  },
+  {
+    "id": "oppenheimer",
+    "title": "Oppenheimer",
+    "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1GLqywDPqfZSLmLAiKC8j2l0o52cAGP8S/preview",
+    "thumbnail": "https://picsum.photos/seed/oppenheimer/600/400",
+    "imageHint": "atomic bomb"
   }
 ]

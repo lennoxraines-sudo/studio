@@ -150,6 +150,12 @@
       "description": "Thumbnail for Gladiator II movie showing a Roman coliseum",
       "imageUrl": "https://picsum.photos/seed/gladiator2/600/400",
       "imageHint": "roman coliseum"
+    },
+    {
+      "id": "oppenheimer-thumb",
+      "description": "Thumbnail for Oppenheimer movie showing an atomic blast or historical figure",
+      "imageUrl": "https://picsum.photos/seed/oppenheimer/600/400",
+      "imageHint": "atomic bomb"
     }
   ]
 }
