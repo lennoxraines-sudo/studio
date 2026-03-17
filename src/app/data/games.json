@@ -278,5 +278,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1IzaFo-PmeI3AiQ_qoDdjCbUdiu8Ohs-w/preview",
     "thumbnail": "https://picsum.photos/seed/scream3/600/400",
     "imageHint": "ghostface trilogy"
+  },
+  {
+    "id": "scream-4",
+    "title": "Scream 4",
+    "description": "Sidney Prescott returns to Woodsboro on her book tour, only to find that Ghostface has also made a comeback.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1HfyVEE2oFq1X8dHMWr5xJmMyHo79l7iG/preview",
+    "thumbnail": "https://picsum.photos/seed/scream4/600/400",
+    "imageHint": "ghostface horror"
   }
 ]

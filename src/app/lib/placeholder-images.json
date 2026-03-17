@@ -52,7 +52,7 @@
     {
       "id": "ultrakill-thumb",
       "description": "Thumbnail for Ultrakill showing high-octane retro FPS action",
-      "imageUrl": "https://picsum.photos/seed/ultrakill/600/400",
+      "imageUrl": "https://picsum.photos/seed/heart/600/400",
       "imageHint": "retro fps"
     },
     {
@@ -186,6 +186,12 @@
       "description": "Thumbnail for Scream 3 showing the Ghostface trilogy themes",
       "imageUrl": "https://picsum.photos/seed/scream3/600/400",
       "imageHint": "ghostface trilogy"
+    },
+    {
+      "id": "scream-4-thumb",
+      "description": "Thumbnail for Scream 4 showing the Ghostface legacy",
+      "imageUrl": "https://picsum.photos/seed/scream4/600/400",
+      "imageHint": "ghostface horror"
     }
   ]
 }
