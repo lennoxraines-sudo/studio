@@ -90,6 +90,12 @@
       "description": "John Wick Chapter 2 movie poster style thumbnail",
       "imageUrl": "https://picsum.photos/seed/johnwick2/600/400",
       "imageHint": "hitman assassin"
+    },
+    {
+      "id": "john-wick-3-thumb",
+      "description": "John Wick Chapter 3 movie poster style thumbnail",
+      "imageUrl": "https://picsum.photos/seed/johnwick3/600/400",
+      "imageHint": "hitman parabellum"
     }
   ]
 }

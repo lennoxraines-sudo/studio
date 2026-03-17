@@ -119,5 +119,13 @@
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1gzsZEVTNEb93tSa0nuzlpR2n20D4Dyx9/preview",
     "thumbnail": "https://picsum.photos/seed/johnwick2/600/400"
+  },
+  {
+    "id": "john-wick-3",
+    "title": "John Wick: Chapter 3 - Parabellum",
+    "description": "Super-assassin John Wick is on the run after killing a member of the international assassin's guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1CsIZrKGXn557DdOJrdz5ty7nkg0i4CWR/preview",
+    "thumbnail": "https://picsum.photos/seed/johnwick3/600/400"
   }
 ]
