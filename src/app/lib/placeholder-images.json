@@ -78,6 +78,12 @@
       "description": "Thumbnail for A Minecraft Movie showing a blocky world and characters",
       "imageUrl": "https://picsum.photos/seed/minecraft/600/400",
       "imageHint": "minecraft world"
+    },
+    {
+      "id": "john-wick-thumb",
+      "description": "John Wick movie poster style thumbnail",
+      "imageUrl": "https://picsum.photos/seed/johnwick/600/400",
+      "imageHint": "hitman action"
     }
   ]
 }

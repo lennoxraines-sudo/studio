@@ -103,5 +103,13 @@
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1Te2pRMPEu19R1ytg3psW46islpyprvkW/preview",
     "thumbnail": "https://picsum.photos/seed/minecraft/600/400"
+  },
+  {
+    "id": "john-wick",
+    "title": "John Wick: Chapter 1",
+    "description": "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1X9Kflcg0LuRjceV6JghCzs49px8cRTIk/preview",
+    "thumbnail": "https://picsum.photos/seed/johnwick/600/400"
   }
 ]
