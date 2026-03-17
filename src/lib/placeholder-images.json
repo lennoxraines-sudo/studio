@@ -61,6 +61,12 @@
       "imageHint": "fishing lake"
     },
     {
+      "id": "brotato-thumb",
+      "description": "Thumbnail for Brotato game showing a potato character with multiple weapons",
+      "imageUrl": "https://picsum.photos/seed/brotato/600/400",
+      "imageHint": "potato warrior"
+    },
+    {
       "id": "wall-e-thumb",
       "description": "Wall-E robot looking up at the stars",
       "imageUrl": "https://picsum.photos/seed/walle/600/400",
@@ -203,6 +209,12 @@
       "description": "Thumbnail for Five Nights at Freddy's 2 showing animatronic sequel terror",
       "imageUrl": "https://picsum.photos/seed/fnaf2/600/400",
       "imageHint": "animatronic sequel"
+    },
+    {
+      "id": "zootopia-thumb",
+      "description": "Thumbnail for Zootopia movie showing an animal city",
+      "imageUrl": "https://picsum.photos/seed/zootopia/600/400",
+      "imageHint": "animal city"
     }
   ]
 }

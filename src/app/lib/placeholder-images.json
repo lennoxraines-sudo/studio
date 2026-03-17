@@ -1,3 +1,4 @@
+
 {
   "placeholderImages": [
     {
@@ -209,6 +210,12 @@
       "description": "Thumbnail for Five Nights at Freddy's 2 showing animatronic sequel terror",
       "imageUrl": "https://picsum.photos/seed/fnaf2/600/400",
       "imageHint": "animatronic sequel"
+    },
+    {
+      "id": "zootopia-thumb",
+      "description": "Thumbnail for Zootopia movie showing an animal city",
+      "imageUrl": "https://picsum.photos/seed/zootopia/600/400",
+      "imageHint": "animal city"
     }
   ]
 }

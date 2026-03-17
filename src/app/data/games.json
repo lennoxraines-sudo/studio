@@ -1,3 +1,4 @@
+
 [
   {
     "id": "cookie-clicker",
@@ -322,5 +323,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1dW1XsOWtiL0mGHOFIB8n0rEhLPoa2buJ/preview",
     "thumbnail": "https://picsum.photos/seed/fnaf2/600/400",
     "imageHint": "animatronic sequel"
+  },
+  {
+    "id": "zootopia",
+    "title": "Zootopia",
+    "description": "In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1HYeIrbf8A-vfvJsvYP59AQzG9l8nt03h/preview",
+    "thumbnail": "https://picsum.photos/seed/zootopia/600/400",
+    "imageHint": "animal city"
   }
 ]
