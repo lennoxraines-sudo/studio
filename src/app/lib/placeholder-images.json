@@ -204,6 +204,12 @@
       "description": "Thumbnail for Five Nights at Freddy's showing animatronic horror",
       "imageUrl": "https://picsum.photos/seed/fnaf/600/400",
       "imageHint": "animatronic horror"
+    },
+    {
+      "id": "fnaf-2-thumb",
+      "description": "Thumbnail for Five Nights at Freddy's 2 showing animatronic sequel terror",
+      "imageUrl": "https://picsum.photos/seed/fnaf2/600/400",
+      "imageHint": "animatronic sequel"
     }
   ]
 }

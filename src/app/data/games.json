@@ -305,5 +305,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1OyO1OdhtfwR883Uvi0QPP5iooGcxTVSY/preview",
     "thumbnail": "https://picsum.photos/seed/fnaf/600/400",
     "imageHint": "animatronic horror"
+  },
+  {
+    "id": "fnaf-2-movie",
+    "title": "Five Nights at Freddy's 2",
+    "description": "The sequel to the hit horror film. Return to Freddy Fazbear's for another night of terror as the mystery of the animatronics deepens.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1dW1XsOWtiL0mGHOFIB8n0rEhLPoa2buJ/preview",
+    "thumbnail": "https://picsum.photos/seed/fnaf2/600/400",
+    "imageHint": "animatronic sequel"
   }
 ]
