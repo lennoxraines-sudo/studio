@@ -161,5 +161,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1ZJWkqS6Y5XO6bRrgCH88rgQZR848Lr8V/preview",
     "thumbnail": "https://picsum.photos/seed/minions/600/400",
     "imageHint": "yellow minions"
+  },
+  {
+    "id": "despicable-me",
+    "title": "Despicable Me",
+    "description": "A mysterious super-villain has a plan to steal the moon, but his life changes when he meets three orphan girls who see him as a potential father.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1KDDDkhqdiwnoXUw9aYc4WdBfprqPX6pE/preview",
+    "thumbnail": "https://picsum.photos/seed/despicable/600/400",
+    "imageHint": "gru minions"
   }
 ]

@@ -108,6 +108,12 @@
       "description": "Thumbnail for The Minions Movie showing yellow minions",
       "imageUrl": "https://picsum.photos/seed/minions/600/400",
       "imageHint": "yellow minions"
+    },
+    {
+      "id": "despicable-me-thumb",
+      "description": "Thumbnail for Despicable Me showing Gru and minions",
+      "imageUrl": "https://picsum.photos/seed/despicable/600/400",
+      "imageHint": "gru minions"
     }
   ]
 }
