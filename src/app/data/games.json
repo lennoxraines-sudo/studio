@@ -21,7 +21,7 @@
   {
     "id": "retro-bowl",
     "title": "Retro Bowl",
-    "description": "The perfect game for the armchair quarterback. Take control of your favorite football team and lead them to glory in this retro-styled sports sim.",
+    "description": "The perfect game for the armchair quarterback. Take control of your football team and lead them to glory in this retro-styled sports sim.",
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/retrobowl/",
     "thumbnail": "https://picsum.photos/seed/retrobowl/600/400",
@@ -179,5 +179,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1bTG8tnEKRvWZnnwNRrHSwOC028Rr_Mrg/preview",
     "thumbnail": "https://picsum.photos/seed/despicable2/600/400",
     "imageHint": "minions purple"
+  },
+  {
+    "id": "despicable-me-3",
+    "title": "Despicable Me 3",
+    "description": "Gru meets his long-lost charming, cheerful, and more successful twin brother Dru who wants to team up with him for one last criminal heist.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1W_Wr8yBmz_lTq3c80Vqj1ZySqXHiQ6mF/preview",
+    "thumbnail": "https://picsum.photos/seed/despicable3/600/400",
+    "imageHint": "minions twins"
   }
 ]

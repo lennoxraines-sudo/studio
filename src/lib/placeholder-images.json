@@ -103,6 +103,12 @@
       "imageHint": "hitman retribution"
     },
     {
+      "id": "minions-movie-thumb",
+      "description": "Thumbnail for The Minions Movie showing yellow minions",
+      "imageUrl": "https://picsum.photos/seed/minions/600/400",
+      "imageHint": "yellow minions"
+    },
+    {
       "id": "despicable-me-thumb",
       "description": "Thumbnail for Despicable Me showing Gru and minions",
       "imageUrl": "https://picsum.photos/seed/despicable/600/400",
@@ -113,6 +119,12 @@
       "description": "Thumbnail for Despicable Me 2 showing minions and Gru",
       "imageUrl": "https://picsum.photos/seed/despicable2/600/400",
       "imageHint": "minions purple"
+    },
+    {
+      "id": "despicable-me-3-thumb",
+      "description": "Thumbnail for Despicable Me 3 showing Gru and his twin brother Dru",
+      "imageUrl": "https://picsum.photos/seed/despicable3/600/400",
+      "imageHint": "minions twins"
     }
   ]
 }
