@@ -87,5 +87,13 @@
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/0B9konOTuvSYRQTl2Nmp6NkpjSG8/preview?resourcekey=0-gT34eT_Bn7WLDxwX3U41fw",
     "thumbnail": "https://picsum.photos/seed/walle/600/400"
+  },
+  {
+    "id": "interstellar",
+    "title": "Interstellar",
+    "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1r4A2MRDGCZ6XORF0mMLvJaDK9L_C9gjO/preview",
+    "thumbnail": "https://picsum.photos/seed/interstellar/600/400"
   }
 ]
