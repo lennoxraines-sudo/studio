@@ -197,5 +197,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1siki1wYP3LpfjFpUT8Z9lJuJzl7MdBhX/preview",
     "thumbnail": "https://picsum.photos/seed/despicable4/600/400",
     "imageHint": "minions baby"
+  },
+  {
+    "id": "lorax",
+    "title": "The Lorax",
+    "description": "A 12-year-old boy searches for the one thing that will enable him to win the affection of the girl of his dreams. To find it he must discover the story of the Lorax, the grumpy yet charming creature who fights to protect his world.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1Kl4ieKALPoEYbllsRy7V8AYiPtJATg7W/preview",
+    "thumbnail": "https://picsum.photos/seed/lorax/600/400",
+    "imageHint": "orange forest"
   }
 ]

@@ -131,6 +131,12 @@
       "description": "Thumbnail for Despicable Me 4 showing Gru Jr and the family",
       "imageUrl": "https://picsum.photos/seed/despicable4/600/400",
       "imageHint": "minions baby"
+    },
+    {
+      "id": "lorax-thumb",
+      "description": "Thumbnail for The Lorax movie showing the orange creature and trees",
+      "imageUrl": "https://picsum.photos/seed/lorax/600/400",
+      "imageHint": "orange forest"
     }
   ]
 }
