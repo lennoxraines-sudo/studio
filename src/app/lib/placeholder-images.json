@@ -72,6 +72,12 @@
       "description": "Endless space and a mysterious wormhole",
       "imageUrl": "https://picsum.photos/seed/interstellar/600/400",
       "imageHint": "space wormhole"
+    },
+    {
+      "id": "minecraft-movie-thumb",
+      "description": "Thumbnail for A Minecraft Movie showing a blocky world and characters",
+      "imageUrl": "https://picsum.photos/seed/minecraft/600/400",
+      "imageHint": "minecraft world"
     }
   ]
 }

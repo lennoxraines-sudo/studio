@@ -95,5 +95,13 @@
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1r4A2MRDGCZ6XORF0mMLvJaDK9L_C9gjO/preview",
     "thumbnail": "https://picsum.photos/seed/interstellar/600/400"
+  },
+  {
+    "id": "minecraft-movie",
+    "title": "A Minecraft Movie",
+    "description": "Based on the global phenomenon, A Minecraft Movie is the first-ever big-screen, live-action adaptation of the best-selling video game of all time.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1Te2pRMPEu19R1ytg3psW46islpyprvkW/preview",
+    "thumbnail": "https://picsum.photos/seed/minecraft/600/400"
   }
 ]
