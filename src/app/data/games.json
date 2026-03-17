@@ -287,5 +287,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1HfyVEE2oFq1X8dHMWr5xJmMyHo79l7iG/preview",
     "thumbnail": "https://picsum.photos/seed/scream4/600/400",
     "imageHint": "ghostface horror"
+  },
+  {
+    "id": "scream-5",
+    "title": "Scream (2022)",
+    "description": "Twenty-five years after a streak of brutal murders shocked the quiet town of Woodsboro, a new killer has donned the Ghostface mask and begins targeting a group of teenagers to resurrect secrets from the town’s deadly past.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1dUxJw1LdOKB4RxNkQLuxas9JJbaJPGlz/preview",
+    "thumbnail": "https://picsum.photos/seed/scream5/600/400",
+    "imageHint": "ghostface legacy"
   }
 ]

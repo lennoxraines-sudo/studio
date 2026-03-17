@@ -185,6 +185,12 @@
       "description": "Thumbnail for Scream 4 showing the Ghostface legacy",
       "imageUrl": "https://picsum.photos/seed/scream4/600/400",
       "imageHint": "ghostface horror"
+    },
+    {
+      "id": "scream-5-thumb",
+      "description": "Thumbnail for Scream (2022) showing the Ghostface legacy",
+      "imageUrl": "https://picsum.photos/seed/scream5/600/400",
+      "imageHint": "ghostface legacy"
     }
   ]
 }
