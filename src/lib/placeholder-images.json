@@ -59,6 +59,12 @@
       "description": "Thumbnail for Tiny Fishing game showing a colorful pond and fishing gear",
       "imageUrl": "https://picsum.photos/seed/fishing/600/400",
       "imageHint": "fishing lake"
+    },
+    {
+      "id": "john-wick-2-thumb",
+      "description": "John Wick Chapter 2 movie poster style thumbnail",
+      "imageUrl": "https://picsum.photos/seed/johnwick2/600/400",
+      "imageHint": "hitman assassin"
     }
   ]
 }

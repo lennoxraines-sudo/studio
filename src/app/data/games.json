@@ -111,5 +111,13 @@
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1X9Kflcg0LuRjceV6JghCzs49px8cRTIk/preview",
     "thumbnail": "https://picsum.photos/seed/johnwick/600/400"
+  },
+  {
+    "id": "john-wick-2",
+    "title": "John Wick: Chapter 2",
+    "description": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1gzsZEVTNEb93tSa0nuzlpR2n20D4Dyx9/preview",
+    "thumbnail": "https://picsum.photos/seed/johnwick2/600/400"
   }
 ]
