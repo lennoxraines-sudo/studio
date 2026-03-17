@@ -114,6 +114,12 @@
       "description": "Thumbnail for Despicable Me showing Gru and minions",
       "imageUrl": "https://picsum.photos/seed/despicable/600/400",
       "imageHint": "gru minions"
+    },
+    {
+      "id": "despicable-me-2-thumb",
+      "description": "Thumbnail for Despicable Me 2 showing minions and Gru",
+      "imageUrl": "https://picsum.photos/seed/despicable2/600/400",
+      "imageHint": "minions purple"
     }
   ]
 }

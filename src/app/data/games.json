@@ -170,5 +170,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1KDDDkhqdiwnoXUw9aYc4WdBfprqPX6pE/preview",
     "thumbnail": "https://picsum.photos/seed/despicable/600/400",
     "imageHint": "gru minions"
+  },
+  {
+    "id": "despicable-me-2",
+    "title": "Despicable Me 2",
+    "description": "Gru is recruited by the Anti-Villain League to help deal with a powerful new super criminal.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1bTG8tnEKRvWZnnwNRrHSwOC028Rr_Mrg/preview",
+    "thumbnail": "https://picsum.photos/seed/despicable2/600/400",
+    "imageHint": "minions purple"
   }
 ]
