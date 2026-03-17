@@ -100,6 +100,15 @@
     "imageHint": "potato warrior"
   },
   {
+    "id": "block-blast",
+    "title": "Block Blast",
+    "description": "An addictive block puzzle game that tests your spatial logic. Drag and drop colorful blocks to fill rows and columns, clearing them for high scores in this satisfying arcade experience.",
+    "category": "Games",
+    "iframeUrl": "/games/block-blast.html",
+    "thumbnail": "https://picsum.photos/seed/blockblast/600/400",
+    "imageHint": "block puzzle"
+  },
+  {
     "id": "wall-e",
     "title": "Wall-E",
     "description": "In a distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",

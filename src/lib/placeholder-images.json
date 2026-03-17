@@ -67,6 +67,12 @@
       "imageHint": "potato warrior"
     },
     {
+      "id": "block-blast-thumb",
+      "description": "Thumbnail for Block Blast game showing colorful blocks on a grid",
+      "imageUrl": "https://picsum.photos/seed/blockblast/600/400",
+      "imageHint": "block puzzle"
+    },
+    {
       "id": "wall-e-thumb",
       "description": "Wall-E robot looking up at the stars",
       "imageUrl": "https://picsum.photos/seed/walle/600/400",
@@ -214,6 +220,12 @@
       "id": "zootopia-thumb",
       "description": "Thumbnail for Zootopia movie showing an animal city",
       "imageUrl": "https://picsum.photos/seed/zootopia/600/400",
+      "imageHint": "animal city"
+    },
+    {
+      "id": "zootopia-2-thumb",
+      "description": "Thumbnail for Zootopia 2 movie showing an animal city",
+      "imageUrl": "https://picsum.photos/seed/zootopia2/600/400",
       "imageHint": "animal city"
     },
     {
