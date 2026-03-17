@@ -1,3 +1,4 @@
+
 {
   "placeholderImages": [
     {
@@ -59,12 +60,6 @@
       "description": "Thumbnail for Tiny Fishing game showing a colorful pond and fishing gear",
       "imageUrl": "https://picsum.photos/seed/fishing/600/400",
       "imageHint": "fishing lake"
-    },
-    {
-      "id": "cut-the-rope-thumb",
-      "description": "Thumbnail for Cut the Rope game showing Om Nom and candy",
-      "imageUrl": "https://picsum.photos/seed/ctr/600/400",
-      "imageHint": "om nom candy"
     }
   ]
 }

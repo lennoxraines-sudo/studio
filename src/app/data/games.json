@@ -79,13 +79,5 @@
     "category": "Games",
     "iframeUrl": "/games/tiny-fishing.html",
     "thumbnail": "https://picsum.photos/seed/fishing/600/400"
-  },
-  {
-    "id": "cut-the-rope",
-    "title": "Cut the Rope",
-    "description": "A mysterious package has arrived, and the little monster inside has only one request… CANDY! Cut the ropes to feed Om Nom and collect stars.",
-    "category": "Games",
-    "iframeUrl": "/games/cut-the-rope.html",
-    "thumbnail": "https://picsum.photos/seed/ctr/600/400"
   }
 ]
