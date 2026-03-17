@@ -120,6 +120,18 @@
       "description": "Thumbnail for Despicable Me 2 showing minions and Gru",
       "imageUrl": "https://picsum.photos/seed/despicable2/600/400",
       "imageHint": "minions purple"
+    },
+    {
+      "id": "despicable-me-3-thumb",
+      "description": "Thumbnail for Despicable Me 3 showing minions and Gru's twin brother",
+      "imageUrl": "https://picsum.photos/seed/despicable3/600/400",
+      "imageHint": "minions twins"
+    },
+    {
+      "id": "despicable-me-4-thumb",
+      "description": "Thumbnail for Despicable Me 4 showing Gru Jr and the family",
+      "imageUrl": "https://picsum.photos/seed/despicable4/600/400",
+      "imageHint": "minions baby"
     }
   ]
 }

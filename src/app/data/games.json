@@ -188,5 +188,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1W_Wr8yBmz_lTq3c80Vqj1ZySqXHiQ6mF/preview",
     "thumbnail": "https://picsum.photos/seed/despicable3/600/400",
     "imageHint": "minions twins"
+  },
+  {
+    "id": "despicable-me-4",
+    "title": "Despicable Me 4",
+    "description": "Gru and Lucy and their girls welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1siki1wYP3LpfjFpUT8Z9lJuJzl7MdBhX/preview",
+    "thumbnail": "https://picsum.photos/seed/despicable4/600/400",
+    "imageHint": "minions baby"
   }
 ]
