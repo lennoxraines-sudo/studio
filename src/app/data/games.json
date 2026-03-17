@@ -233,5 +233,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1GLqywDPqfZSLmLAiKC8j2l0o52cAGP8S/preview",
     "thumbnail": "https://picsum.photos/seed/oppenheimer/600/400",
     "imageHint": "atomic bomb"
+  },
+  {
+    "id": "twisters",
+    "title": "Twisters",
+    "description": "As storm season intensifies, the paths of a former storm chaser and a reckless social-media superstar collide as they try to predict, and possibly tame, the immense power of tornadoes.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/12UeDOq7tCcbfvEo_EtzkL3Gxho45UOl4/preview",
+    "thumbnail": "https://picsum.photos/seed/twisters/600/400",
+    "imageHint": "tornado storm"
   }
 ]

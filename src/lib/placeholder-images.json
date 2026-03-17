@@ -155,6 +155,12 @@
       "description": "Thumbnail for Oppenheimer movie showing an atomic blast or historical figure",
       "imageUrl": "https://picsum.photos/seed/oppenheimer/600/400",
       "imageHint": "atomic bomb"
+    },
+    {
+      "id": "twisters-thumb",
+      "description": "Thumbnail for Twisters movie showing a tornado and storm chasers",
+      "imageUrl": "https://picsum.photos/seed/twisters/600/400",
+      "imageHint": "tornado storm"
     }
   ]
 }
