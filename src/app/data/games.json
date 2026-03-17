@@ -79,5 +79,13 @@
     "category": "Games",
     "iframeUrl": "/games/tiny-fishing.html",
     "thumbnail": "https://picsum.photos/seed/fishing/600/400"
+  },
+  {
+    "id": "wall-e",
+    "title": "Wall-E",
+    "description": "In a distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "category": "Movies",
+    "iframeUrl": "https://vidsrc.to/embed/movie/tt0910970",
+    "thumbnail": "https://picsum.photos/seed/walle/600/400"
   }
 ]

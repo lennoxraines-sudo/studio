@@ -60,6 +60,12 @@
       "description": "Thumbnail for Tiny Fishing game showing a colorful pond and fishing gear",
       "imageUrl": "https://picsum.photos/seed/fishing/600/400",
       "imageHint": "fishing lake"
+    },
+    {
+      "id": "wall-e-thumb",
+      "description": "Wall-E robot looking up at the stars",
+      "imageUrl": "https://picsum.photos/seed/walle/600/400",
+      "imageHint": "robot space"
     }
   ]
 }
