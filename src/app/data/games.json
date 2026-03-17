@@ -152,5 +152,14 @@
     "iframeUrl": "https://drive.google.com/file/d/10LUlcX6Hu9pn3c3xmPlfJOf20Qjwgxq_/preview",
     "thumbnail": "https://picsum.photos/seed/johnwick4/600/400",
     "imageHint": "hitman retribution"
+  },
+  {
+    "id": "minions-movie",
+    "title": "The Minions Movie",
+    "description": "Minions Stuart, Kevin, and Bob are recruited by Scarlet Overkill, a supervillain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1ZJWkqS6Y5XO6bRrgCH88rgQZR848Lr8V/preview",
+    "thumbnail": "https://picsum.photos/seed/minions/600/400",
+    "imageHint": "yellow minions"
   }
 ]

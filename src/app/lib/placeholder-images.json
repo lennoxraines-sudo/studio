@@ -102,6 +102,12 @@
       "description": "John Wick Chapter 4 movie poster style thumbnail",
       "imageUrl": "https://picsum.photos/seed/johnwick4/600/400",
       "imageHint": "hitman retribution"
+    },
+    {
+      "id": "minions-movie-thumb",
+      "description": "Thumbnail for The Minions Movie showing yellow minions",
+      "imageUrl": "https://picsum.photos/seed/minions/600/400",
+      "imageHint": "yellow minions"
     }
   ]
 }
