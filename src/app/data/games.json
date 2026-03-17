@@ -341,5 +341,14 @@
     "iframeUrl": "https://drive.google.com/file/d/10lys4xAmzALt_F081ej_9oP3i7Lm1Qgq/preview",
     "thumbnail": "https://picsum.photos/seed/zootopia2/600/400",
     "imageHint": "animal city"
+  },
+  {
+    "id": "avatar",
+    "title": "Avatar",
+    "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/16tKuEYtxi7EeKtX3yZZR-nXgZ_oGTxXS/preview",
+    "thumbnail": "https://picsum.photos/seed/avatar/600/400",
+    "imageHint": "pandora jungle"
   }
 ]

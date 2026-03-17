@@ -222,6 +222,12 @@
       "description": "Thumbnail for Zootopia 2 movie showing an animal city",
       "imageUrl": "https://picsum.photos/seed/zootopia2/600/400",
       "imageHint": "animal city"
+    },
+    {
+      "id": "avatar-thumb",
+      "description": "Thumbnail for Avatar movie showing a lush jungle or alien landscape",
+      "imageUrl": "https://picsum.photos/seed/avatar/600/400",
+      "imageHint": "pandora jungle"
     }
   ]
 }
