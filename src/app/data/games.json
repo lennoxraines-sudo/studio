@@ -260,5 +260,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1K0v8NXcyS-ShrwaNpyvQ-1X-RbgUBihO/preview",
     "thumbnail": "https://picsum.photos/seed/scream/600/400",
     "imageHint": "ghostface horror"
+  },
+  {
+    "id": "scream-2",
+    "title": "Scream 2",
+    "description": "Away at college, Sidney Prescott thought she'd finally put the shocking murders that shattered her life behind her... until a copycat killer begins acting out a real-life sequel.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1i8w5FlmSFp3hixLRHeodPPtQq5r5VDQh/preview",
+    "thumbnail": "https://picsum.photos/seed/scream2/600/400",
+    "imageHint": "ghostface sequel"
   }
 ]
