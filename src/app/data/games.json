@@ -269,5 +269,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1i8w5FlmSFp3hixLRHeodPPtQq5r5VDQh/preview",
     "thumbnail": "https://picsum.photos/seed/scream2/600/400",
     "imageHint": "ghostface sequel"
+  },
+  {
+    "id": "scream-3",
+    "title": "Scream 3",
+    "description": "While Sidney Prescott lives in safely guarded seclusion, bodies again begin to pile up around the set of 'Stab 3', a movie sequel based on the real-life Woodsboro murders.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1IzaFo-PmeI3AiQ_qoDdjCbUdiu8Ohs-w/preview",
+    "thumbnail": "https://picsum.photos/seed/scream3/600/400",
+    "imageHint": "ghostface trilogy"
   }
 ]

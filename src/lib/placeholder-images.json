@@ -173,6 +173,12 @@
       "description": "Thumbnail for Scream 2 showing the Ghostface sequel themes",
       "imageUrl": "https://picsum.photos/seed/scream2/600/400",
       "imageHint": "ghostface sequel"
+    },
+    {
+      "id": "scream-3-thumb",
+      "description": "Thumbnail for Scream 3 showing the Ghostface trilogy themes",
+      "imageUrl": "https://picsum.photos/seed/scream3/600/400",
+      "imageHint": "ghostface trilogy"
     }
   ]
 }
