@@ -198,6 +198,12 @@
       "description": "Thumbnail for Scream (2022) showing the Ghostface legacy",
       "imageUrl": "https://picsum.photos/seed/scream5/600/400",
       "imageHint": "ghostface legacy"
+    },
+    {
+      "id": "fnaf-thumb",
+      "description": "Thumbnail for Five Nights at Freddy's showing animatronic horror",
+      "imageUrl": "https://picsum.photos/seed/fnaf/600/400",
+      "imageHint": "animatronic horror"
     }
   ]
 }

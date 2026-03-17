@@ -296,5 +296,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1dUxJw1LdOKB4RxNkQLuxas9JJbaJPGlz/preview",
     "thumbnail": "https://picsum.photos/seed/scream5/600/400",
     "imageHint": "ghostface legacy"
+  },
+  {
+    "id": "fnaf-movie",
+    "title": "Five Nights at Freddy's",
+    "description": "A troubled security guard begins working at Freddy Fazbear's Pizzeria. While spending his first night on the job, he realizes the night shift at Freddy's won't be so easy to make it through.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1OyO1OdhtfwR883Uvi0QPP5iooGcxTVSY/preview",
+    "thumbnail": "https://picsum.photos/seed/fnaf/600/400",
+    "imageHint": "animatronic horror"
   }
 ]
