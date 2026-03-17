@@ -61,10 +61,46 @@
       "imageHint": "fishing lake"
     },
     {
+      "id": "wall-e-thumb",
+      "description": "Wall-E robot looking up at the stars",
+      "imageUrl": "https://picsum.photos/seed/walle/600/400",
+      "imageHint": "robot space"
+    },
+    {
+      "id": "interstellar-thumb",
+      "description": "Endless space and a mysterious wormhole",
+      "imageUrl": "https://picsum.photos/seed/interstellar/600/400",
+      "imageHint": "space wormhole"
+    },
+    {
+      "id": "minecraft-movie-thumb",
+      "description": "Thumbnail for A Minecraft Movie showing a blocky world and characters",
+      "imageUrl": "https://picsum.photos/seed/minecraft/600/400",
+      "imageHint": "minecraft world"
+    },
+    {
+      "id": "john-wick-thumb",
+      "description": "John Wick movie poster style thumbnail",
+      "imageUrl": "https://picsum.photos/seed/johnwick/600/400",
+      "imageHint": "hitman action"
+    },
+    {
       "id": "john-wick-2-thumb",
       "description": "John Wick Chapter 2 movie poster style thumbnail",
       "imageUrl": "https://picsum.photos/seed/johnwick2/600/400",
       "imageHint": "hitman assassin"
+    },
+    {
+      "id": "john-wick-3-thumb",
+      "description": "John Wick Chapter 3 movie poster style thumbnail",
+      "imageUrl": "https://picsum.photos/seed/johnwick3/600/400",
+      "imageHint": "hitman parabellum"
+    },
+    {
+      "id": "john-wick-4-thumb",
+      "description": "John Wick Chapter 4 movie poster style thumbnail",
+      "imageUrl": "https://picsum.photos/seed/johnwick4/600/400",
+      "imageHint": "hitman retribution"
     }
   ]
 }
