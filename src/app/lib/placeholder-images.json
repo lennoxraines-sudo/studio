@@ -168,6 +168,12 @@
       "description": "Thumbnail for Texas Chainsaw Massacre showing a dark, gritty horror atmosphere",
       "imageUrl": "https://picsum.photos/seed/chainsaw/600/400",
       "imageHint": "chainsaw horror"
+    },
+    {
+      "id": "scream-thumb",
+      "description": "Thumbnail for Scream showing the Ghostface mask and horror themes",
+      "imageUrl": "https://picsum.photos/seed/scream/600/400",
+      "imageHint": "ghostface horror"
     }
   ]
 }

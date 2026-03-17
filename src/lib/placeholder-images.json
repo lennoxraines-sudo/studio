@@ -122,7 +122,7 @@
     },
     {
       "id": "despicable-me-3-thumb",
-      "description": "Thumbnail for Despicable Me 3 showing Gru and his twin brother Dru",
+      "description": "Thumbnail for Despicable Me 3 showing minions and Gru's twin brother Dru",
       "imageUrl": "https://picsum.photos/seed/despicable3/600/400",
       "imageHint": "minions twins"
     },
@@ -161,6 +161,12 @@
       "description": "Thumbnail for Twisters movie showing a tornado and storm chasers",
       "imageUrl": "https://picsum.photos/seed/twisters/600/400",
       "imageHint": "tornado storm"
+    },
+    {
+      "id": "scream-thumb",
+      "description": "Thumbnail for Scream showing the Ghostface mask and horror themes",
+      "imageUrl": "https://picsum.photos/seed/scream/600/400",
+      "imageHint": "ghostface horror"
     }
   ]
 }
