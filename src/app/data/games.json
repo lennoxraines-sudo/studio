@@ -215,5 +215,14 @@
     "iframeUrl": "https://drive.google.com/file/d/1Hd90lotAZQPfB8rfJ219MTTe9xy59TZ0/preview",
     "thumbnail": "https://picsum.photos/seed/gladiator/600/400",
     "imageHint": "roman warrior"
+  },
+  {
+    "id": "gladiator-2",
+    "title": "Gladiator II",
+    "description": "Years after witnessing the death of the revered hero Maximus, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist.",
+    "category": "Movies",
+    "iframeUrl": "https://drive.google.com/file/d/1Ji_gULD2I1eReo2_mf9_0EMKYy0GwFHC/preview",
+    "thumbnail": "https://picsum.photos/seed/gladiator2/600/400",
+    "imageHint": "roman coliseum"
   }
 ]

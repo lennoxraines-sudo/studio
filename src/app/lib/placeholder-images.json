@@ -138,6 +138,18 @@
       "description": "Thumbnail for The Lorax movie showing the orange creature and trees",
       "imageUrl": "https://picsum.photos/seed/lorax/600/400",
       "imageHint": "orange forest"
+    },
+    {
+      "id": "gladiator-thumb",
+      "description": "Thumbnail for Gladiator movie showing a Roman warrior",
+      "imageUrl": "https://picsum.photos/seed/gladiator/600/400",
+      "imageHint": "roman warrior"
+    },
+    {
+      "id": "gladiator-2-thumb",
+      "description": "Thumbnail for Gladiator II movie showing a Roman coliseum",
+      "imageUrl": "https://picsum.photos/seed/gladiator2/600/400",
+      "imageHint": "roman coliseum"
     }
   ]
 }
