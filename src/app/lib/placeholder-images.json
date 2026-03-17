@@ -1,4 +1,3 @@
-
 {
   "placeholderImages": [
     {
@@ -52,7 +51,7 @@
     {
       "id": "ultrakill-thumb",
       "description": "Thumbnail for Ultrakill showing high-octane retro FPS action",
-      "imageUrl": "https://picsum.photos/seed/heart/600/400",
+      "imageUrl": "https://picsum.photos/seed/ultrakill/600/400",
       "imageHint": "retro fps"
     },
     {
@@ -60,6 +59,12 @@
       "description": "Thumbnail for Tiny Fishing game showing a colorful pond and fishing gear",
       "imageUrl": "https://picsum.photos/seed/fishing/600/400",
       "imageHint": "fishing lake"
+    },
+    {
+      "id": "brotato-thumb",
+      "description": "Thumbnail for Brotato game showing a potato character with multiple weapons",
+      "imageUrl": "https://picsum.photos/seed/brotato/600/400",
+      "imageHint": "potato warrior"
     },
     {
       "id": "wall-e-thumb",
@@ -123,7 +128,7 @@
     },
     {
       "id": "despicable-me-3-thumb",
-      "description": "Thumbnail for Despicable Me 3 showing minions and Gru's twin brother",
+      "description": "Thumbnail for Despicable Me 3 showing minions and Gru's twin brother Dru",
       "imageUrl": "https://picsum.photos/seed/despicable3/600/400",
       "imageHint": "minions twins"
     },
@@ -141,7 +146,7 @@
     },
     {
       "id": "gladiator-thumb",
-      "description": "Thumbnail for Gladiator movie showing a Roman warrior",
+      "description": "Thumbnail for Gladiator movie showing a Roman warrior or coliseum",
       "imageUrl": "https://picsum.photos/seed/gladiator/600/400",
       "imageHint": "roman warrior"
     },
@@ -162,12 +167,6 @@
       "description": "Thumbnail for Twisters movie showing a tornado and storm chasers",
       "imageUrl": "https://picsum.photos/seed/twisters/600/400",
       "imageHint": "tornado storm"
-    },
-    {
-      "id": "texas-chainsaw-massacre-thumb",
-      "description": "Thumbnail for Texas Chainsaw Massacre showing a dark, gritty horror atmosphere",
-      "imageUrl": "https://picsum.photos/seed/chainsaw/600/400",
-      "imageHint": "chainsaw horror"
     },
     {
       "id": "scream-thumb",
