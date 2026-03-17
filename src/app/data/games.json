@@ -6,7 +6,8 @@
     "description": "The original idle game where you bake cookies to rule the universe. Click the big cookie, buy upgrades, and recruit grandmas to help you bake more cookies!",
     "category": "Games",
     "iframeUrl": "/games/cookie-clicker.html",
-    "thumbnail": "https://picsum.photos/seed/cookie/600/400"
+    "thumbnail": "https://picsum.photos/seed/cookie/600/400",
+    "imageHint": "cookie bakery"
   },
   {
     "id": "run-3",
@@ -14,7 +15,8 @@
     "description": "Run, jump, and defy gravity in this classic space runner. Navigate through ever-changing tunnels and avoid falling into the void.",
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/run3/",
-    "thumbnail": "https://picsum.photos/seed/run3/600/400"
+    "thumbnail": "https://picsum.photos/seed/run3/600/400",
+    "imageHint": "space runner"
   },
   {
     "id": "retro-bowl",
@@ -22,7 +24,8 @@
     "description": "The perfect game for the armchair quarterback. Take control of your favorite football team and lead them to glory in this retro-styled sports sim.",
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/retrobowl/",
-    "thumbnail": "https://picsum.photos/seed/retrobowl/600/400"
+    "thumbnail": "https://picsum.photos/seed/retrobowl/600/400",
+    "imageHint": "american football"
   },
   {
     "id": "2048",
@@ -30,7 +33,8 @@
     "description": "Join the numbers and get to the 2048 tile! A simple but addictive puzzle game where you slide tiles on a grid to combine them and reach the highest score.",
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/2048/",
-    "thumbnail": "https://picsum.photos/seed/2048/600/400"
+    "thumbnail": "https://picsum.photos/seed/2048/600/400",
+    "imageHint": "2048 puzzle"
   },
   {
     "id": "slope",
@@ -38,7 +42,8 @@
     "description": "A fast-paced 3D runner game where you control a ball rolling down a steep slope. Avoid obstacles and stay on the track as you accelerate to breakneck speeds.",
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/slope/",
-    "thumbnail": "https://picsum.photos/seed/slope/600/400"
+    "thumbnail": "https://picsum.photos/seed/slope/600/400",
+    "imageHint": "neon slope"
   },
   {
     "id": "flappy-bird",
@@ -46,7 +51,8 @@
     "description": "Tap to fly and dodge the green pipes in this classic, notoriously difficult arcade game. How far can you get?",
     "category": "Games",
     "iframeUrl": "https://incrediblewebsite.github.io/flappybird/",
-    "thumbnail": "https://picsum.photos/seed/flappy/600/400"
+    "thumbnail": "https://picsum.photos/seed/flappy/600/400",
+    "imageHint": "flappy bird"
   },
   {
     "id": "drive-mad",
@@ -54,7 +60,8 @@
     "description": "A challenging monster truck driving game where you navigate through various obstacles and terrains. Balance your speed and control to reach the finish line without flipping over!",
     "category": "Games",
     "iframeUrl": "/games/drive-mad.html",
-    "thumbnail": "https://picsum.photos/seed/drivemad/600/400"
+    "thumbnail": "https://picsum.photos/seed/drivemad/600/400",
+    "imageHint": "monster truck"
   },
   {
     "id": "slither",
@@ -62,7 +69,8 @@
     "description": "Grow your snake by consuming glowing orbs and outsmart other players in this addictive multiplayer arena game. Become the biggest snake on the leaderboard!",
     "category": "Games",
     "iframeUrl": "/games/slither.html",
-    "thumbnail": "https://picsum.photos/seed/slither/600/400"
+    "thumbnail": "https://picsum.photos/seed/slither/600/400",
+    "imageHint": "snake neon"
   },
   {
     "id": "ultrakill",
@@ -70,7 +78,8 @@
     "description": "A fast-paced, ultra-violent retro FPS. Maneuver through hellish environments, use blood to heal, and unleash stylish combos on your enemies in this intense shooter.",
     "category": "Games",
     "iframeUrl": "/games/ultrakill.html",
-    "thumbnail": "https://picsum.photos/seed/ultrakill/600/400"
+    "thumbnail": "https://picsum.photos/seed/ultrakill/600/400",
+    "imageHint": "retro fps"
   },
   {
     "id": "tiny-fishing",
@@ -78,7 +87,8 @@
     "description": "Cast your line, catch as many fish as you can, and upgrade your gear to reach deeper waters. A relaxing and addictive fishing game!",
     "category": "Games",
     "iframeUrl": "/games/tiny-fishing.html",
-    "thumbnail": "https://picsum.photos/seed/fishing/600/400"
+    "thumbnail": "https://picsum.photos/seed/fishing/600/400",
+    "imageHint": "fishing lake"
   },
   {
     "id": "wall-e",
@@ -86,7 +96,8 @@
     "description": "In a distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/0B9konOTuvSYRQTl2Nmp6NkpjSG8/preview?resourcekey=0-gT34eT_Bn7WLDxwX3U41fw",
-    "thumbnail": "https://picsum.photos/seed/walle/600/400"
+    "thumbnail": "https://picsum.photos/seed/walle/600/400",
+    "imageHint": "robot space"
   },
   {
     "id": "interstellar",
@@ -94,7 +105,8 @@
     "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1r4A2MRDGCZ6XORF0mMLvJaDK9L_C9gjO/preview",
-    "thumbnail": "https://picsum.photos/seed/interstellar/600/400"
+    "thumbnail": "https://picsum.photos/seed/interstellar/600/400",
+    "imageHint": "space wormhole"
   },
   {
     "id": "minecraft-movie",
@@ -102,7 +114,8 @@
     "description": "Based on the global phenomenon, A Minecraft Movie is the first-ever big-screen, live-action adaptation of the best-selling video game of all time.",
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1Te2pRMPEu19R1ytg3psW46islpyprvkW/preview",
-    "thumbnail": "https://picsum.photos/seed/minecraft/600/400"
+    "thumbnail": "https://picsum.photos/seed/minecraft/600/400",
+    "imageHint": "minecraft world"
   },
   {
     "id": "john-wick",
@@ -110,7 +123,8 @@
     "description": "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1X9Kflcg0LuRjceV6JghCzs49px8cRTIk/preview",
-    "thumbnail": "https://picsum.photos/seed/johnwick/600/400"
+    "thumbnail": "https://picsum.photos/seed/johnwick/600/400",
+    "imageHint": "hitman action"
   },
   {
     "id": "john-wick-2",
@@ -118,7 +132,8 @@
     "description": "After returning to the criminal underworld to repay a debt, John Wick discovers that a large bounty has been put on his life.",
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1gzsZEVTNEb93tSa0nuzlpR2n20D4Dyx9/preview",
-    "thumbnail": "https://picsum.photos/seed/johnwick2/600/400"
+    "thumbnail": "https://picsum.photos/seed/johnwick2/600/400",
+    "imageHint": "hitman assassin"
   },
   {
     "id": "john-wick-3",
@@ -126,7 +141,8 @@
     "description": "Super-assassin John Wick is on the run after killing a member of the international assassin's guild, and with a $14 million price tag on his head, he is the target of hit men and women everywhere.",
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/1CsIZrKGXn557DdOJrdz5ty7nkg0i4CWR/preview",
-    "thumbnail": "https://picsum.photos/seed/johnwick3/600/400"
+    "thumbnail": "https://picsum.photos/seed/johnwick3/600/400",
+    "imageHint": "hitman parabellum"
   },
   {
     "id": "john-wick-4",
@@ -134,6 +150,7 @@
     "description": "John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
     "category": "Movies",
     "iframeUrl": "https://drive.google.com/file/d/10LUlcX6Hu9pn3c3xmPlfJOf20Qjwgxq_/preview",
-    "thumbnail": "https://picsum.photos/seed/johnwick4/600/400"
+    "thumbnail": "https://picsum.photos/seed/johnwick4/600/400",
+    "imageHint": "hitman retribution"
   }
 ]

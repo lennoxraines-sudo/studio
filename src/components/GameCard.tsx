@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Play, Film, Tv, Gamepad2 } from "lucide-react";
+import { Play, Film, Tv } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 
 export interface Game {
@@ -13,6 +13,7 @@ export interface Game {
   category: string;
   iframeUrl: string;
   thumbnail: string;
+  imageHint?: string;
 }
 
 interface GameCardProps {
@@ -51,7 +52,7 @@ export function GameCard({ game }: GameCardProps) {
             width={600}
             height={400}
             className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
-            data-ai-hint="media thumbnail"
+            data-ai-hint={game.imageHint || "media thumbnail"}
           />
           <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
             <div className="bg-white/20 backdrop-blur-sm p-4 rounded-full">
