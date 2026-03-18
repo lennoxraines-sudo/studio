@@ -37,9 +37,26 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
     }
   };
 
+  const handleContainerClick = () => {
+    // Specifically for Ultrakill or other FPS games, request pointer lock in fullscreen
+    if (isFullscreen && id === 'ultrakill' && containerRef.current) {
+      const iframe = containerRef.current.querySelector('iframe');
+      if (iframe) {
+        // Attempt to request pointer lock on the container to keep it simple
+        containerRef.current.requestPointerLock();
+      }
+    }
+  };
+
   useEffect(() => {
     const handleFsChange = () => {
-      setIsFullscreen(!!document.fullscreenElement);
+      const isFs = !!document.fullscreenElement;
+      setIsFullscreen(isFs);
+      
+      // If exiting fullscreen, also release pointer lock
+      if (!isFs && document.pointerLockElement) {
+        document.exitPointerLock();
+      }
     };
     document.addEventListener("fullscreenchange", handleFsChange);
     return () => document.removeEventListener("fullscreenchange", handleFsChange);
@@ -82,21 +99,25 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
       </nav>
 
       <main className="flex-1 flex flex-col p-4 md:p-8 max-w-6xl mx-auto w-full">
-        <div ref={containerRef} className={`relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-black ${isFullscreen ? 'w-full h-full rounded-none' : 'border border-border/50'}`}>
-          <div className="iframe-container">
+        <div 
+          ref={containerRef} 
+          onClick={handleContainerClick}
+          className={`relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-black transition-all ${isFullscreen ? 'w-full h-full rounded-none fixed inset-0 z-[100]' : 'border border-border/50'}`}
+        >
+          <div className={`${isFullscreen ? 'h-full w-full' : 'iframe-container'}`}>
             <iframe
               id="sandboxFrame"
               src={game.iframeUrl}
               title={game.title}
               allow="accelerometer *; ambient-light-sensor *; autoplay *; camera *; clipboard-read *; clipboard-write *; encrypted-media *; fullscreen *; geolocation *; gyroscope *; local-network-access *; magnetometer *; microphone *; midi *; payment *; picture-in-picture *; screen-wake-lock *; speaker *; sync-xhr *; usb *; vibrate *; vr *; web-share *; pointer-lock *"
               sandbox="allow-downloads allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-storage-access-by-user-activation allow-pointer-lock"
-              className="bg-black w-full h-full border-none"
+              className={`bg-black w-full h-full border-none ${isFullscreen ? 'fixed inset-0' : ''}`}
             />
           </div>
           
-          <div className={`absolute bottom-6 right-6 flex gap-2 transition-opacity ${isFullscreen ? 'opacity-100' : 'opacity-0 hover:opacity-100'}`}>
+          <div className={`absolute bottom-6 right-6 flex gap-2 transition-opacity z-[101] ${isFullscreen ? 'opacity-0 hover:opacity-100' : 'opacity-0 hover:opacity-100'}`}>
             <Button 
-              onClick={toggleFullscreen} 
+              onClick={(e) => { e.stopPropagation(); toggleFullscreen(); }} 
               className="bg-white/20 hover:bg-white/30 backdrop-blur-md border-none text-white rounded-2xl h-12 px-6 shadow-lg font-bold"
             >
               {isFullscreen ? (
@@ -110,6 +131,12 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
               )}
             </Button>
           </div>
+
+          {isFullscreen && id === 'ultrakill' && (
+            <div className="absolute top-4 left-1/2 -translate-x-1/2 pointer-events-none opacity-50 text-white text-[10px] font-bold uppercase tracking-widest bg-black/50 px-4 py-1 rounded-full">
+              Click to Lock Mouse | ESC to Unlock
+            </div>
+          )}
         </div>
 
         <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
