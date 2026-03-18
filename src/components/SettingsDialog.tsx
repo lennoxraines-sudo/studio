@@ -21,6 +21,7 @@ export function SettingsDialog() {
     { id: "arcade", name: "Arcade (Light)", color: "bg-[#6133CC]" },
     { id: "midnight", name: "Midnight (Dark)", color: "bg-[#3B82F6]" },
     { id: "neon", name: "Neon (Retro)", color: "bg-[#FF00FF]" },
+    { id: "evil", name: "Evil (Dark)", color: "bg-[#FF0000]" },
   ];
 
   return (

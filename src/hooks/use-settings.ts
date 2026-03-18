@@ -17,7 +17,7 @@ export const CLOAK_PRESETS: Record<string, CloakPreset> = {
   wikipedia: { name: "Wikipedia", title: "Wikipedia, the free encyclopedia", icon: "https://en.wikipedia.org/static/favicon/wikipedia.ico" },
 };
 
-export type ThemePreset = "arcade" | "midnight" | "neon";
+export type ThemePreset = "arcade" | "midnight" | "neon" | "evil";
 
 export function useSettings() {
   const [cloak, setCloak] = useState<string>("none");

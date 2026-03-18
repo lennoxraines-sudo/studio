@@ -67,6 +67,26 @@
     --input: 260 100% 15%;
     --ring: 320 100% 50%;
   }
+
+  [data-theme="evil"] {
+    --background: 0 100% 2%;
+    --foreground: 0 0% 98%;
+    --card: 0 100% 4%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 100% 2%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 100% 50%; /* Blood Red */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 50% 10%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 50% 10%;
+    --muted-foreground: 0 50% 60%;
+    --accent: 20 100% 50%; /* Fiery Red-Orange */
+    --accent-foreground: 0 0% 100%;
+    --border: 0 100% 15%;
+    --input: 0 100% 15%;
+    --ring: 0 100% 50%;
+  }
 }
 
 @layer base {
