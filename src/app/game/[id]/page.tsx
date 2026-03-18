@@ -3,7 +3,7 @@
 
 import { useState, useRef, useEffect, use } from "react";
 import Link from "next/link";
-import { ArrowLeft, Maximize, Minimize, Share2, Info } from "lucide-react";
+import { ArrowLeft, Maximize, Minimize, Share2, Info, MousePointer2 } from "lucide-react";
 import gamesData from "../../data/games.json";
 import { type Game } from "@/components/GameCard";
 import { Button } from "@/components/ui/button";
@@ -14,6 +14,7 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
   const { id } = use(params);
   const [game, setGame] = useState<Game | null>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [isPointerLocked, setIsPointerLocked] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -37,14 +38,9 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
     }
   };
 
-  const handleContainerClick = () => {
-    // Specifically for Ultrakill or other FPS games, request pointer lock in fullscreen
-    if (isFullscreen && id === 'ultrakill' && containerRef.current) {
-      const iframe = containerRef.current.querySelector('iframe');
-      if (iframe) {
-        // Attempt to request pointer lock on the container to keep it simple
-        containerRef.current.requestPointerLock();
-      }
+  const requestLock = () => {
+    if (containerRef.current && isFullscreen) {
+      containerRef.current.requestPointerLock();
     }
   };
 
@@ -52,14 +48,22 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
     const handleFsChange = () => {
       const isFs = !!document.fullscreenElement;
       setIsFullscreen(isFs);
-      
-      // If exiting fullscreen, also release pointer lock
       if (!isFs && document.pointerLockElement) {
         document.exitPointerLock();
       }
     };
+
+    const handlePointerLockChange = () => {
+      setIsPointerLocked(document.pointerLockElement === containerRef.current);
+    };
+
     document.addEventListener("fullscreenchange", handleFsChange);
-    return () => document.removeEventListener("fullscreenchange", handleFsChange);
+    document.addEventListener("pointerlockchange", handlePointerLockChange);
+    
+    return () => {
+      document.removeEventListener("fullscreenchange", handleFsChange);
+      document.removeEventListener("pointerlockchange", handlePointerLockChange);
+    };
   }, []);
 
   if (!game) {
@@ -72,6 +76,8 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
       </div>
     );
   }
+
+  const isFPS = id === 'ultrakill';
 
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground">
@@ -100,8 +106,7 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
 
       <main className="flex-1 flex flex-col p-4 md:p-8 max-w-6xl mx-auto w-full">
         <div 
-          ref={containerRef} 
-          onClick={handleContainerClick}
+          ref={containerRef}
           className={`relative rounded-[2.5rem] overflow-hidden shadow-2xl bg-black transition-all ${isFullscreen ? 'w-full h-full rounded-none fixed inset-0 z-[100]' : 'border border-border/50'}`}
         >
           <div className={`${isFullscreen ? 'h-full w-full' : 'iframe-container'}`}>
@@ -115,6 +120,21 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
             />
           </div>
           
+          {/* Overlay for Pointer Lock (FPS games like Ultrakill) */}
+          {isFullscreen && isFPS && !isPointerLocked && (
+            <div 
+              onClick={requestLock}
+              className="absolute inset-0 z-[102] bg-black/60 flex flex-col items-center justify-center cursor-pointer group"
+            >
+              <div className="bg-primary/20 p-8 rounded-full mb-6 group-hover:scale-110 transition-transform">
+                <MousePointer2 className="w-12 h-12 text-primary animate-pulse" />
+              </div>
+              <h2 className="text-2xl font-bold text-white mb-2">Click to Lock Mouse</h2>
+              <p className="text-white/60 text-sm uppercase tracking-widest">Required for FPS Gameplay</p>
+              <div className="mt-8 text-white/40 text-[10px] uppercase font-bold tracking-[0.2em]">Press ESC to unlock & exit</div>
+            </div>
+          )}
+
           <div className={`absolute bottom-6 right-6 flex gap-2 transition-opacity z-[101] ${isFullscreen ? 'opacity-0 hover:opacity-100' : 'opacity-0 hover:opacity-100'}`}>
             <Button 
               onClick={(e) => { e.stopPropagation(); toggleFullscreen(); }} 
@@ -131,12 +151,6 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
               )}
             </Button>
           </div>
-
-          {isFullscreen && id === 'ultrakill' && (
-            <div className="absolute top-4 left-1/2 -translate-x-1/2 pointer-events-none opacity-50 text-white text-[10px] font-bold uppercase tracking-widest bg-black/50 px-4 py-1 rounded-full">
-              Click to Lock Mouse | ESC to Unlock
-            </div>
-          )}
         </div>
 
         <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -210,7 +224,7 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
                 <div className="mt-8 p-5 bg-accent/5 rounded-[1.5rem] border border-accent/20">
                   <p className="text-xs font-bold text-accent uppercase mb-2 tracking-widest">Pro Tip</p>
                   <p className="text-sm text-accent/80 leading-snug">
-                    Use Fullscreen mode for the most immersive arcade experience and better performance!
+                    {isFPS ? "Click the center overlay in fullscreen to lock your mouse for FPS movement!" : "Use Fullscreen mode for the most immersive arcade experience and better performance!"}
                   </p>
                 </div>
              </Card>
