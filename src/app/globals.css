@@ -1,29 +1,71 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 222 47% 11%; /* Deep Dark Blue */
+    /* Default: Arcade (PRD Light Theme) */
+    --background: 255 25% 94%; /* #EFECF5 */
+    --foreground: 258 60% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 258 60% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 258 60% 15%;
+    --primary: 258 60% 50%; /* #6133CC */
+    --primary-foreground: 210 40% 98%;
+    --secondary: 258 20% 90%;
+    --secondary-foreground: 258 60% 40%;
+    --muted: 258 20% 90%;
+    --muted-foreground: 258 10% 40%;
+    --accent: 229 100% 71%; /* #6E88FF */
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 258 20% 85%;
+    --input: 258 20% 85%;
+    --ring: 258 60% 50%;
+    --radius: 1.25rem;
+  }
+
+  [data-theme="midnight"] {
+    --background: 222 47% 11%;
     --foreground: 210 40% 98%;
     --card: 222 47% 15%;
     --card-foreground: 210 40% 98%;
     --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
-    --primary: 217 91% 60%; /* Vibrant Blue */
+    --primary: 217 91% 60%;
     --primary-foreground: 222 47% 11%;
     --secondary: 217 32% 17%;
     --secondary-foreground: 210 40% 98%;
     --muted: 217 32% 17%;
     --muted-foreground: 215 20% 65%;
-    --accent: 199 89% 48%; /* Cyan/Sky blue */
+    --accent: 199 89% 48%;
     --accent-foreground: 210 40% 98%;
-    --destructive: 0 62% 30%;
-    --destructive-foreground: 210 40% 98%;
     --border: 217 32% 17%;
     --input: 217 32% 17%;
     --ring: 224 76% 48%;
-    --radius: 1.25rem; /* Rounder corners */
+  }
+
+  [data-theme="neon"] {
+    --background: 260 100% 2%;
+    --foreground: 210 40% 98%;
+    --card: 260 100% 5%;
+    --card-foreground: 210 40% 98%;
+    --popover: 260 100% 2%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 320 100% 50%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 260 100% 10%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 260 100% 10%;
+    --muted-foreground: 320 50% 70%;
+    --accent: 180 100% 50%;
+    --accent-foreground: 260 100% 2%;
+    --border: 260 100% 15%;
+    --input: 260 100% 15%;
+    --ring: 320 100% 50%;
   }
 }
 
@@ -38,12 +80,12 @@
 }
 
 .game-card-hover {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  @apply transition-all duration-300;
 }
 
 .game-card-hover:hover {
   transform: translateY(-8px);
-  box-shadow: 0 20px 25px -5px rgb(59 130 246 / 0.2), 0 8px 10px -6px rgb(59 130 246 / 0.2);
+  @apply shadow-2xl;
 }
 
 .iframe-container {

@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -16,12 +17,17 @@ export const CLOAK_PRESETS: Record<string, CloakPreset> = {
   wikipedia: { name: "Wikipedia", title: "Wikipedia, the free encyclopedia", icon: "https://en.wikipedia.org/static/favicon/wikipedia.ico" },
 };
 
+export type ThemePreset = "arcade" | "midnight" | "neon";
+
 export function useSettings() {
   const [cloak, setCloak] = useState<string>("none");
+  const [theme, setTheme] = useState<ThemePreset>("arcade");
 
   useEffect(() => {
     const savedCloak = localStorage.getItem("yoyo-cloak") || "none";
+    const savedTheme = (localStorage.getItem("yoyo-theme") as ThemePreset) || "arcade";
     setCloak(savedCloak);
+    setTheme(savedTheme);
   }, []);
 
   useEffect(() => {
@@ -42,5 +48,10 @@ export function useSettings() {
     }
   }, [cloak]);
 
-  return { cloak, setCloak };
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("yoyo-theme", theme);
+  }, [theme]);
+
+  return { cloak, setCloak, theme, setTheme };
 }
