@@ -100,7 +100,7 @@ export default function GamePage({ params }: { params: Promise<{ id: string }> }
             />
           </div>
 
-          <div className={`absolute bottom-6 right-6 flex gap-2 transition-opacity z-[101] ${isFullscreen ? 'opacity-0 hover:opacity-100' : 'opacity-0 hover:opacity-100'}`}>
+          <div className="absolute bottom-6 right-6 flex gap-2 transition-opacity z-[101] opacity-0 hover:opacity-100">
             <Button 
               onClick={(e) => { e.stopPropagation(); toggleFullscreen(); }} 
               className="bg-white/20 hover:bg-white/30 backdrop-blur-md border-none text-white rounded-2xl h-12 px-6 shadow-lg font-bold"
